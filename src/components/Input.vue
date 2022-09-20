@@ -31,7 +31,7 @@
 </template>
 <script>
 export default {
-  name: "oneInput",
+  name: "OneInput",
   components: {},
   props: {
     placeholder: {

@@ -1,5 +1,6 @@
 <template>
-  <!-- <one-button @click="aa" round>点我弹出对话框</one-button>
+  <!-- 
+  <one-button @click="aa" round>点我弹出对话框</one-button>
   <one-dialog v-model="isVisible">
     <template v-slot:title>
       <h3>我是标题</h3>
@@ -12,15 +13,28 @@
       <one-button type="primary" @click="switchDialog">确定</one-button>
     </template>
   </one-dialog>
-  <hr /> -->
+  -->
 
-  <!-- <one-input v-model="username" ></one-input>
+  <!-- 
+  <one-input v-model="username" ></one-input>
   <one-input v-model="username" clearable></one-input>
-  <one-input v-model="username" type="password" showPassword></one-input> -->
-  <!--<one-input :modelValue="username" @update:modelValue="username=$event"></one-input>-->
-  <!-- <one-switch v-model="active" activeColor="green" inactiveColor="red" :name='username' ></one-switch>
-  <one-switch v-model="active" :name='username' ></one-switch> -->
-  <div></div>
+  <one-input v-model="username" type="password" showPassword></one-input>
+  <one-input :modelValue="username" @update:modelValue="username=$event"></one-input>
+  -->
+  <!-- 
+    <one-switch v-model="active" activeColor="green" inactiveColor="red" :name='username' ></one-switch>
+    <one-switch v-model="active" :name='username' ></one-switch> 
+  -->
+
+  <one-radio label="0" v-model="gender">男</one-radio>
+  <one-radio label="1" v-model="gender">女</one-radio> 
+ 
+  <div></div><hr>
+
+  <one-radio-group v-model="gender">
+    <one-radio label="0">男</one-radio>
+    <one-radio label="1">女</one-radio> 
+  </one-radio-group>
 </template>
 
 <script>
@@ -29,8 +43,9 @@ export default {
   data() {
     return {
       isVisible: false,
-      username: "我是打算代组件",
-      active:false
+      username: "我是组件",
+      active: false,
+      gender:'0'
     };
   },
   methods: {
