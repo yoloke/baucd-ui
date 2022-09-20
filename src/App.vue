@@ -1,6 +1,6 @@
 <template>
   <one-button @click="aa" round>点我弹出对话框</one-button>
-    <one-dialog v-model="isVisible">
+  <one-dialog v-model="isVisible">
     <template v-slot:title>
       <h3>我是标题</h3>
     </template>
@@ -12,6 +12,12 @@
       <one-button type="primary" @click="switchDialog">确定</one-button>
     </template>
   </one-dialog>
+  <hr />
+
+  <one-input v-model="username" ></one-input>
+  <one-input v-model="username" clearable></one-input>
+  <one-input v-model="username" type="password" showPassword></one-input>
+  <!--<one-input :modelValue="username" @update:modelValue="username=$event"></one-input>-->
 </template>
 
 <script>
@@ -19,16 +25,17 @@ export default {
   name: "App",
   data() {
     return {
-    isVisible:false
-   } 
+      isVisible: false,
+      username: "我是input组件",
+    };
   },
   methods: {
     switchDialog() {
-      this.isVisible=false
+      this.isVisible = false;
     },
     aa() {
-      this.isVisible=true
-    }
+      this.isVisible = true;
+    },
   },
 };
 </script>

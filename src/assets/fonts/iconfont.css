@@ -321,6 +321,7 @@
 }
 
 .one-icon-eye_protection:before {
+  color: blue;
   content: "\e6e2";
 }
 
