@@ -1,5 +1,5 @@
 <template>
-  <one-button @click="aa" round>点我弹出对话框</one-button>
+  <!-- <one-button @click="aa" round>点我弹出对话框</one-button>
   <one-dialog v-model="isVisible">
     <template v-slot:title>
       <h3>我是标题</h3>
@@ -12,12 +12,15 @@
       <one-button type="primary" @click="switchDialog">确定</one-button>
     </template>
   </one-dialog>
-  <hr />
+  <hr /> -->
 
-  <one-input v-model="username" ></one-input>
+  <!-- <one-input v-model="username" ></one-input>
   <one-input v-model="username" clearable></one-input>
-  <one-input v-model="username" type="password" showPassword></one-input>
+  <one-input v-model="username" type="password" showPassword></one-input> -->
   <!--<one-input :modelValue="username" @update:modelValue="username=$event"></one-input>-->
+  <!-- <one-switch v-model="active" activeColor="green" inactiveColor="red" :name='username' ></one-switch>
+  <one-switch v-model="active" :name='username' ></one-switch> -->
+  <div></div>
 </template>
 
 <script>
@@ -26,7 +29,8 @@ export default {
   data() {
     return {
       isVisible: false,
-      username: "我是input组件",
+      username: "我是打算代组件",
+      active:false
     };
   },
   methods: {
@@ -37,14 +41,11 @@ export default {
       this.isVisible = true;
     },
   },
+  watch: {
+
+  }
 };
 </script>
 
 <style lang="scss">
-.row {
-  padding: 12px;
-  one-button {
-    margin-right: 6px;
-  }
-}
 </style>
