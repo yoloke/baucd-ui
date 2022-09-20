@@ -26,15 +26,25 @@
     <one-switch v-model="active" :name='username' ></one-switch> 
   -->
 
-  <one-radio label="0" v-model="gender">男</one-radio>
+  <!-- <one-radio label="0" v-model="gender">男</one-radio>
   <one-radio label="1" v-model="gender">女</one-radio> 
- 
+  -->
   <div></div><hr>
-
+<!-- 
   <one-radio-group v-model="gender">
     <one-radio label="0">男</one-radio>
     <one-radio label="1">女</one-radio> 
-  </one-radio-group>
+  </one-radio-group> -->
+
+  <one-checkbox v-model="active" label="0">是否选中</one-checkbox>
+  <one-checkbox v-model="active" label="0">是否选中</one-checkbox>
+  <hr>
+
+  <one-checkbox-group v-model="hobby">
+    <one-checkbox label="11">抽烟</one-checkbox>
+    <one-checkbox label="22">喝酒</one-checkbox>
+    <one-checkbox label="33">烫头</one-checkbox>
+  </one-checkbox-group>
 </template>
 
 <script>
@@ -45,7 +55,8 @@ export default {
       isVisible: false,
       username: "我是组件",
       active: false,
-      gender:'0'
+      gender: '0',
+      hobby:['11','22','33']
     };
   },
   methods: {

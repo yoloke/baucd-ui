@@ -157,13 +157,13 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 <br>
 
-| 属性    | 值                        | 描述                               |
-| ------- | ------------------------- | ---------------------------------- |
-| label   | [String, Number, Boolean] | 单选框 label 值，默认为空字符串    |
-| mimicry | Boolean                   | 对话框是否为拟态风格，默认为 false |
-| name    | String                    | 表单命名，默认为空                 |
-| value   | String                    | 表单值，默认为空字符串             |
-| color   | String                    | 单选框选择时的颜色，默认为#409eff  |
+| 属性            | 值                        | 描述                               |
+| --------------- | ------------------------- | ---------------------------------- |
+| label           | [String, Number, Boolean] | 单选框的value值，默认为空字符串    |
+| value / v-model | [String, Number, Boolean] | 单选框的绑定值，默认为空字符串     |
+| mimicry         | Boolean                   | 对话框是否为拟态风格，默认为 false |
+| name            | String                    | 表单命名，默认为空                 |
+| color           | String                    | 单选框选择时的颜色，默认为#409eff  |
 
 <br>
 
@@ -186,9 +186,9 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 | 属性    | 值                        | 描述                               |
 | ------- | ------------------------- | ---------------------------------- |
 | label   | [String, Number, Boolean] | 单选框 label 值，默认为空字符串    |
+| value   | String                    | 表单值，默认为空字符串             |
 | mimicry | Boolean                   | 对话框是否为拟态风格，默认为 false |
 | name    | String                    | 表单命名，默认为空                 |
-| value   | String                    | 表单值，默认为空字符串             |
 | color   | String                    | 单选框选择时的颜色，默认为#409eff  |
 
 <br>
