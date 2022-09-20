@@ -94,14 +94,14 @@ export default {
       background-color: #fff;
     }
   }
-  // input标签只作为name绑定使用 隐藏input标签
-  //   .one-switch_input {
-  //     position: absolute;
-  //     width: 0;
-  //     height: 0;
-  //     opacity: 0;
-  //     margin: 0;
-  //   }
+  //input标签只作为name绑定使用 隐藏input标签
+  .one-switch_input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+  }
 }
 // 选中样式
 .is-checked {

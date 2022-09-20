@@ -52,7 +52,7 @@ export default {
     },
     modelValue: {
       type: String,
-      default: "",
+      default: "请输入内容",
     },
     //清空输入框
     clearable: {

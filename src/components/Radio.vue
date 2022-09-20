@@ -48,7 +48,6 @@ export default {
         return this.isGroup ? this.RadioGroup.modelValue : this.modelValue
       },
       set(value) {
-        console.log('value',value);
         // 触发父组件的input事件
         this.isGroup ? this.RadioGroup.$emit('update:modelValue', value) : this.$emit('update:modelValue', value)
       },

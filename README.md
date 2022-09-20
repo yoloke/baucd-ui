@@ -115,16 +115,16 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 <br>
 
-| 属性         | 值      | 描述                               |
-| ------------ | ------- | ---------------------------------- |
-| placeholder  | String  | 占位符，默认为空字符串             |
-| type         | String  | 表单类型，默认为'text'             |
-| mimicry      | Boolean | 对话框是否为拟态风格，默认为 false |
-| name         | String  | 表单命名，默认为空                 |
-| value        | String  | 表单值，默认为空字符串             |
-| disabled     | Boolean | 是否禁用，默认为 false             |
-| clearable    | Boolean | 是否可清空，默认为 false           |
-| showPassword | Boolean | 是否显示密码可见，默认为 false     |
+| 属性            | 值               | 描述                               |
+| --------------- | ---------------- | ---------------------------------- |
+| placeholder     | String           | 输入框占位文本，默认为空字符串     |
+| type            | String           | 表单类型，默认为'text'             |
+| value / v-model | [String, Number] | 绑定值，默认为空字符串             |
+| mimicry         | Boolean          | 对话框是否为拟态风格，默认为 false |
+| name            | String           | 原生属性，默认为空                 |
+| disabled        | Boolean          | 是否禁用，默认为 false             |
+| clearable       | Boolean          | 是否可清空，默认为 false           |
+| showPassword    | Boolean          | 是否显示密码可见，默认为 false     |
 
 <br>
 
@@ -132,14 +132,14 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 <br>
 
-| 属性          | 值      | 描述                               |
-| ------------- | ------- | ---------------------------------- |
-| mimicry       | Boolean | 对话框是否为拟态风格，默认为 false |
-| name          | String  | 表单命名，默认为空                 |
-| value         | String  | 表单值，默认为空字符串             |
-| disabled      | Boolean | 是否禁用，默认为 false             |
-| activeColor   | String  | 激活状态颜色，默认为#dcdfe6        |
-| inactiveColor | String  | 未激化状态颜色，默认为#dcdfe6      |
+| 属性            | 值      | 描述                               |
+| --------------- | ------- | ---------------------------------- |
+| mimicry         | Boolean | 对话框是否为拟态风格，默认为 false |
+| name            | String  | switch 对应的 name 属性，默认为空  |
+| value / v-model | String  | 绑定值，默认为空字符串             |
+| disabled        | Boolean | 是否禁用，默认为 false             |
+| activeColor     | String  | 激活状态颜色，默认为#dcdfe6        |
+| inactiveColor   | String  | 未激化状态颜色，默认为#dcdfe6      |
 
 <br>
 
@@ -209,9 +209,9 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 <br>
 
-| 属性  | 值     | 描述                            |
-| ----- | ------ | ------------------------------- |
-| label | String | 单选框 label 值，默认为空字符串 |
+| 属性  | 值     | 描述                       |
+| ----- | ------ | -------------------------- |
+| label | String | 表单项名称，默认为空字符串 |
 
 <br>
 
