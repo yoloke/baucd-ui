@@ -1,18 +1,18 @@
 <template>
-  <label class="one-radio" :class="{ 'is-checked': label == model }">
-    <span class="one-radio_input">
+  <label class="ba-radio" :class="{ 'is-checked': label == model }">
+    <span class="ba-radio_input">
       <!-- 模拟radio选框 小圆圈 -->
-      <span class="one-radio_inner"></span>
+      <span class="ba-radio_inner"></span>
       <!-- 隐藏radio选框 -->
       <input
         type="radio"
-        class="one-radio_original"
+        class="ba-radio_original"
         :value="label"
         :name="name"
         v-model="model"
       />
     </span>
-    <span class="one-radio_label"
+    <span class="ba-radio_label"
       ><slot>
         {{ label }}
       </slot></span
@@ -21,7 +21,7 @@
 </template>
 <script>
 export default {
-  name: "OneRadio",
+  name: "BaRadio",
   props: {
     label: {
       type: [String, Number, Boolean],
@@ -66,7 +66,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.one-radio {
+.ba-radio {
   color: #606266;
   font-weight: 500;
   line-height: 1;
@@ -74,21 +74,21 @@ export default {
   cursor: pointer;
   display: inline-block;
   white-space: nowrap;
-  outline: none;
+  outline: nba;
   font-size: 14px;
   margin-right: 30px;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  .one-radio_input {
+  -moz-user-select: nba;
+  -webkit-user-select: nba;
+  -moz-user-select: nba;
+  .ba-radio_input {
     white-space: nowrap;
     cursor: pointer;
-    outline: none;
+    outline: nba;
     display: inline-block;
     line-height: 1;
     position: relative;
     vertical-align: middle;
-    .one-radio_inner {
+    .ba-radio_inner {
       border: 1px solid #dcdfe6;
       border-radius: 100%;
       width: 14px;
@@ -111,9 +111,9 @@ export default {
         transition: transform 0.15s ease-in;
       }
     }
-    .one-radio_original {
+    .ba-radio_original {
       opacity: 0;
-      outline: none;
+      outline: nba;
       position: absolute;
       z-index: -1;
       top: 0;
@@ -123,15 +123,15 @@ export default {
       margin: 0;
     }
   }
-  .one-radio_label {
+  .ba-radio_label {
     font-size: 14px;
     padding-left: 10px;
   }
 }
 // 选中的样式
-.one-radio.is-checked {
-  .one-radio_input {
-    .one-radio_inner {
+.ba-radio.is-checked {
+  .ba-radio_input {
+    .ba-radio_inner {
       border-color: #409eff;
       background-color: #409eff;
       &:after {
@@ -139,7 +139,7 @@ export default {
       }
     }
   }
-  .one-radio_label {
+  .ba-radio_label {
     color: #409eff;
   }
 }

@@ -1,14 +1,14 @@
 <template>
-  <div class="one-form-item">
-    <label :style="labelStyle" class="one-form-item_label">{{label}}</label>
-    <div class="one-form-item_content">
+  <div class="ba-form-item">
+    <label :style="labelStyle" class="ba-form-item_label">{{label}}</label>
+    <div class="ba-form-item_content">
       <slot></slot>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'OneFormItem',
+  name: 'BaFormItem',
   props: {
     label: {
       type: String,
@@ -23,7 +23,6 @@ export default {
   },
   computed: {
     labelStyle() {
-       console.log(this.Form);
       return {
         width: this.Form.labelWidth
       }
@@ -33,9 +32,9 @@ export default {
 </script>
  
 <style lang="scss" scoped>
-  .one-form-item{
+  .ba-form-item{
     margin-bottom: 25px;
-    .one-form-item_label{
+    .ba-form-item_label{
       text-align: right;
       vertical-align: middle;
       float: left;
@@ -45,7 +44,7 @@ export default {
       padding: 0 12px 0 0;
       box-sizing: border-box;
     }
-    .one-form-item_content{
+    .ba-form-item_content{
       line-height: 40px;
       position: relative;
       font-size: 14px;

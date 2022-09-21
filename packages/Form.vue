@@ -1,11 +1,11 @@
 <template>
-  <div class="one-form">
+  <div class="ba-form">
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-  name: 'OneForm',
+  name: 'BaForm',
   provide () {
     return {
       Form: this

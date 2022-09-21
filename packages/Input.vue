@@ -1,10 +1,10 @@
 <template>
-  <div class="one-input" :class="{ 'one-input_suffix': showSuffix }">
+  <div class="ba-input" :class="{ 'ba-input_suffix': showSuffix }">
     <!-- disabled属性为true时，输入框禁用，并且需要改变样式，
         之前在button组件封装的时候也用到了相同的方法，获取到值后动态设置组件样式
      -->
     <input
-      class="one-input_inner"
+      class="ba-input_inner"
       :class="{ 'is-disabled': disabled }"
       :placeholder="placeholder"
       :type="showPassword ? (passwordVisible ? 'text' : 'password') : type"
@@ -13,16 +13,16 @@
       @input="handleInput"
       :disabled="disabled"
     />
-    <span class="one-input_suffix" v-if="showSuffix">
+    <span class="ba-input_suffix" v-if="showSuffix">
       <!-- 清空的小图标 -->
       <i
-        class="one-icon-cancel"
+        class="ba-icon-cancel"
         v-if="clearable && modelValue"
         @click="clear"
       ></i>
       <!-- 显示和隐藏密码的小图标 -->
       <i
-        :class="passwordVisible?'one-icon-eye_protection':'one-icon-visible'"
+        :class="passwordVisible?'ba-icon-eye_protection':'ba-icon-visible'"
         v-if="showPassword && type == 'password'"
         @click="handlePassword"
       ></i>
@@ -31,7 +31,7 @@
 </template>
 <script>
 export default {
-  name: "OneInput",
+  name: "BaInput",
   components: {},
   props: {
     placeholder: {
@@ -92,12 +92,12 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.one-input {
+.ba-input {
   width: 400px;
   position: relative;
   font-size: 14px;
   display: inline-block;
-  .one-input_inner {
+  .ba-input_inner {
     -webkit-appearance: none;
     background-color: #fff;
     background-image: none;
@@ -128,11 +128,11 @@ export default {
   }
 }
 //图标样式
-.one-input_suffix {
-  .one-input_inner {
+.ba-input_suffix {
+  .ba-input_inner {
     padding-right: 30px;
   }
-  .one-input_suffix {
+  .ba-input_suffix {
     position: absolute;
     right: 10px;
     height: 100%;

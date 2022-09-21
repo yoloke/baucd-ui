@@ -1,22 +1,22 @@
 <template>
-  <label class="one-checkbox" :class="{'is-checked':isChecked}">
-    <span class="one-checkbox_input">
-      <span class="one-checkbox_inner"></span>
+  <label class="ba-checkbox" :class="{'is-checked':isChecked}">
+    <span class="ba-checkbox_input">
+      <span class="ba-checkbox_inner"></span>
       <input type="checkbox"
-      class="one-checkbox_original"
+      class="ba-checkbox_original"
       :name="name"
       :value="label"
       v-model="model"
       >
     </span>
-    <span class="one-checkbox_label">
+    <span class="ba-checkbox_label">
       <slot>{{label}}</slot> 
     </span>
   </label>
 </template>
 <script>
 export default {
-  name: 'OneCheckbox',
+  name: 'BaCheckbox',
   inject: {
     CheckboxGroup: {
       default: ''
@@ -60,7 +60,7 @@ export default {
 </script>
  
 <style lang="scss" scoped>
-  .one-checkbox{
+  .ba-checkbox{
     color: #606266;
     font-weight: 500;
     font-size: 14px;
@@ -70,7 +70,7 @@ export default {
     white-space: nowrap;
     user-select: none;
     margin-right: 30px;
-    .one-checkbox_input{
+    .ba-checkbox_input{
       white-space: nowrap;
       cursor: pointer;
       outline: none;
@@ -78,7 +78,7 @@ export default {
       line-height: 1;
       position: relative;
       vertical-align: middle;
-      .one-checkbox_inner{
+      .ba-checkbox_inner{
         display: inline-block;
         position: relative;
         border: 1px solid #dcdfe6;
@@ -105,7 +105,7 @@ export default {
           transform-origin: center;
         }
       }
-      .one-checkbox_original{
+      .ba-checkbox_original{
         opacity: 0;
         outline: none;
         position: absolute;
@@ -116,7 +116,7 @@ export default {
         z-index: -1;
       }
     }
-    .one-checkbox_label{
+    .ba-checkbox_label{
       display: inline-block;
       padding-left: 10px;
       line-height: 19px;
@@ -124,9 +124,9 @@ export default {
     }
   }
   // 选中的样式
-  .one-checkbox.is-checked{
-    .one-checkbox_input{
-      .one-checkbox_inner{
+  .ba-checkbox.is-checked{
+    .ba-checkbox_input{
+      .ba-checkbox_inner{
         background-color: #409eff;
         border-color: #409eff;
       }
@@ -134,7 +134,7 @@ export default {
         transform: rotate(45deg) scaleY(1);
       }
     }
-    .one-checkbox_label{
+    .ba-checkbox_label{
       color: #409eff;
     }
   }

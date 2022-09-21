@@ -1,11 +1,11 @@
 <template>
-  <div class="one-radio-group">
+  <div class="ba-radio-group">
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-  name: 'OneRadioGroup',
+  name: 'BaRadioGroup',
   provide () {
     return {
       RadioGroup: this

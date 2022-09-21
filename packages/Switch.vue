@@ -1,19 +1,19 @@
 <template>
   <div
-    class="one-switch"
+    class="ba-switch"
     @click="handleClick"
     :class="{ 'is-checked': modelValue }"
   >
-    <span class="one-switch_core" ref="core"
-      ><!-- 小圆点 --><span class="one-switch_button"></span
+    <span class="ba-switch_core" ref="core"
+      ><!-- 小圆点 --><span class="ba-switch_button"></span
     ></span>
-    <input type="checkbox" class="one-switch_input" :name="name" ref="input" />
+    <input type="checkbox" class="ba-switch_input" :name="name" ref="input" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "OneSwitch",
+  name: "BaSwitch",
   props: {
     modelValue: {
       type: Boolean,
@@ -62,28 +62,28 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.one-switch {
+.ba-switch {
   display: inline-block;
   align-items: center;
   position: relative;
   font-size: 14px;
   line-height: 20px;
   vertical-align: middle;
-  .one-switch_core {
+  .ba-switch_core {
     margin: 0;
     display: inline-block;
     position: relative;
     width: 40px;
     height: 20px;
     border: 1px solid #dcdfe6;
-    outline: none;
+    outline: nba;
     border-radius: 10px;
     box-sizing: border-box;
     background: #dcdfe6;
     cursor: pointer;
     transition: border-color 0.3s, background-color 0.3s;
     vertical-align: middle;
-    .one-switch_button {
+    .ba-switch_button {
       position: absolute;
       top: 1px;
       left: 1px;
@@ -95,7 +95,7 @@ export default {
     }
   }
   //input标签只作为name绑定使用 隐藏input标签
-  .one-switch_input {
+  .ba-switch_input {
     position: absolute;
     width: 0;
     height: 0;
@@ -105,10 +105,10 @@ export default {
 }
 // 选中样式
 .is-checked {
-  .one-switch_core {
+  .ba-switch_core {
     border-color: #409eff;
     background-color: #409eff;
-    .one-switch_button {
+    .ba-switch_button {
       //移动小圆点
       transform: translateX(20px);
     }

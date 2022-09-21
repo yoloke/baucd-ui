@@ -1,14 +1,14 @@
 <template>
   <button
-    class="one-button"
+    class="ba-button"
     :class="[
-      `one-button-${type}`,
+      `ba-button-${type}`,
       { 'is-plain': plain, 'is-round': round, 'is-circle': circle,'is-disabled':disabled },
     ]"
     @click="handleClick"
     :disabled="disabled"
   >
-    <i v-if="icon" :class="`one-icon-${icon}`"></i>
+    <i v-if="icon" :class="`ba-icon-${icon}`"></i>
     <!-- 如果没传入文本插槽，则不显示span内容 -->
     <!-- 传了内容就有默认插槽 -->
     <span v-if="$slots.default"><slot></slot></span>
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "OneButton",
+  name: "BaButton",
   // 此时对props进行校验，值接收string类型的type值
   props: {
     //按钮类型
@@ -62,7 +62,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.one-button {
+.ba-button {
   display: inline-block;
   line-height: 1;
   white-space: nowrap;
@@ -92,7 +92,7 @@ export default {
     background-color: #ecf5ff;
   }
 }
-.one-button-primary {
+.ba-button-primary {
   color: #fff;
   background-color: #409eff;
   border-color: #409eff;
@@ -103,7 +103,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-success {
+.ba-button-success {
   color: #fff;
   background-color: #67c23a;
   border-color: #67c23a;
@@ -114,7 +114,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-info {
+.ba-button-info {
   color: #fff;
   background-color: #909399;
   border-color: #909399;
@@ -125,7 +125,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-warning {
+.ba-button-warning {
   color: #fff;
   background-color: #e6a23c;
   border-color: #e6a23c;
@@ -136,7 +136,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-danger {
+.ba-button-danger {
   color: #fff;
   background-color: #f56c6c;
   border-color: #f56c6c;
@@ -148,7 +148,7 @@ export default {
   }
 }
 // 朴素按钮样式
-.one-button.is-plain {
+.ba-button.is-plain {
   &:hover,
   &:focus {
     background: #fff;
@@ -156,7 +156,7 @@ export default {
     color: #409eff;
   }
 }
-.one-button-primary.is-plain {
+.ba-button-primary.is-plain {
   color: #409eff;
   background: #ecf5ff;
   &:hover,
@@ -166,7 +166,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-success.is-plain {
+.ba-button-success.is-plain {
   color: #67c23a;
   background: #c2e7b0;
   &:hover,
@@ -176,7 +176,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-info.is-plain {
+.ba-button-info.is-plain {
   color: #909399;
   background: #d3d4d6;
   &:hover,
@@ -186,7 +186,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-warning.is-plain {
+.ba-button-warning.is-plain {
   color: #e6a23c;
   background: #f5dab1;
   &:hover,
@@ -196,7 +196,7 @@ export default {
     color: #fff;
   }
 }
-.one-button-danger.is-plain {
+.ba-button-danger.is-plain {
   color: #f56c6c;
   background: #fbc4c4;
   &:hover,
@@ -206,23 +206,23 @@ export default {
     color: #fff;
   }
 }
-.one-button.is-round {
+.ba-button.is-round {
   border-radius: 20px;
   padding: 10px 18px;
 }
-.one-button.is-circle {
+.ba-button.is-circle {
   border-radius: 50%;
   padding: 12px;
 }
-.one-button.is-circle {
+.ba-button.is-circle {
   border-radius: 50%;
   padding: 12px;
 }
 // 设置icon配套样式，使图标和文字之间有一定间隔
-.one-button [class*="one-icon-"] + span {
+.ba-button [class*="ba-icon-"] + span {
   margin-left: 5px;
 }
-.one-button.is-disabled{
+.ba-button.is-disabled{
   opacity: .5;
    cursor: no-drop;
 }

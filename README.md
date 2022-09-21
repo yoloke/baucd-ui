@@ -15,15 +15,15 @@ npm i baucd-ui
 2. 全局注册
 
 ```js
-import UI from 'demot-ui'
-Vue.use(DemoUI)
+import UI from 'baucd-ui'
+Vue.use(UI)
 ```
 
 3. 按需导入
 
 ```js
-import DemoUI, { Button, Form } from 'demot-ui'
-Vue.use(DemoUI, {
+import BaucdUI, { Button, Form } from 'baucd-ui'
+Vue.use(BaucdUI, {
   components: [Button, Form]
 })
 ```
@@ -31,7 +31,7 @@ Vue.use(DemoUI, {
 3. 导入样式
 
 ```js
-import 'demot-ui/dist/demot-ui.css'
+import 'baucd-ui/dist/baucd-ui.css'
 ```
 
 4. 导入 font-awesome 字体图标

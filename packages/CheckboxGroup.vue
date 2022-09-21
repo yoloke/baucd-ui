@@ -1,11 +1,11 @@
 <template>
-  <div class="one-checkbox-group">
+  <div class="ba-checkbox-group">
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-  name: 'OneCheckboxGroup',
+  name: 'BaCheckboxGroup',
   provide () {
     return {
       CheckboxGroup: this
