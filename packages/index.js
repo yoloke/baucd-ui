@@ -12,6 +12,11 @@ import Switch from './Switch'
 import CheckboxGroup from './CheckboxGroup'
 import Form from './Form'
 import FormItem from './FormItem'
+import Pagination from './Pagination'
+
+import Selector from './Selector.vue'
+
+
 import './fonts/style.css'
 
 const components = [
@@ -24,7 +29,9 @@ const components = [
     Switch,
     CheckboxGroup,
     Form,
-    FormItem
+    FormItem,
+    Pagination,
+    Selector
 ]
 // 定义install方法
 const install = function (app) {

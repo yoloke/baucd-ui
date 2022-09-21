@@ -22,7 +22,7 @@
       ></i>
       <!-- 显示和隐藏密码的小图标 -->
       <i
-        :class="passwordVisible?'ba-icon-eye_protection':'ba-icon-visible'"
+        :class="passwordVisible?'ba-icon-eye':'ba-icon-eye-off'"
         v-if="showPassword && type == 'password'"
         @click="handlePassword"
       ></i>
@@ -137,14 +137,14 @@ export default {
     right: 10px;
     height: 100%;
     top: 0;
-    line-height: 40px;
+    line-height: 42px;
     text-align: center;
     color: #c0c4cc;
     transition: all 0.3s;
     z-index: 900;
     i {
       color: #c0c4cc;
-      font-size: 20px;
+      font-size: 16px;
       cursor: pointer;
       transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
     }
