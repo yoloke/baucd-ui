@@ -6,7 +6,7 @@ export const data = {
   "frontmatter": {
     "home": true,
     "heroImage": "/img/logo.png",
-    "actionText": "快速上手哈哈 →",
+    "actionText": "快速上手 →",
     "actionLink": "/zh/`guide/",
     "features": [
       {

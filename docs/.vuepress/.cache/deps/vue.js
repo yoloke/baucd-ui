@@ -50,6 +50,7 @@ import {
   hydrate,
   initCustomFormatter,
   initDirectivesForSSR,
+  init_runtime_dom_esm_bundler,
   inject,
   isMemoSame,
   isProxy,
@@ -136,7 +137,7 @@ import {
   withMemo,
   withModifiers,
   withScopeId
-} from "./chunk-NJCYJEW6.js";
+} from "./chunk-PVB3FAIT.js";
 import {
   camelize,
   capitalize,
@@ -145,17 +146,18 @@ import {
   normalizeStyle,
   toDisplayString,
   toHandlerKey
-} from "./chunk-ERWGD5OZ.js";
+} from "./chunk-H6X6R6QU.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-LHFWWTYY.js";
+} from "./chunk-2LB3RAV7.js";
 
 // dep:vue
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
+init_runtime_dom_esm_bundler();
 export {
   BaseTransition,
   Comment,

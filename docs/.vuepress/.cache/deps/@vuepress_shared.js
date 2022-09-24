@@ -1,14 +1,15 @@
 import {
+  init_shared_esm_bundler,
   isArray,
   isFunction,
   isPromise,
   isString
-} from "./chunk-ERWGD5OZ.js";
+} from "./chunk-H6X6R6QU.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-LHFWWTYY.js";
+} from "./chunk-2LB3RAV7.js";
 
 // dep:@vuepress_shared
 init_define_DEMOBLOCK_LOCALES();
@@ -54,6 +55,7 @@ init_define_MZ_ZOOM_OPTIONS();
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
+init_shared_esm_bundler();
 
 // node_modules/@vuepress/shared/lib/esm/utils/dedupeHead.js
 init_define_DEMOBLOCK_LOCALES();

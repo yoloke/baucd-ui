@@ -1,13 +1,10 @@
-const {
-  path
-} = require('@vuepress/utils')
 const navbar = require('./config/navbar')
 const sidebar = require('./config/sidebar')
 
 module.exports = {
   // 站点配置
   lang: 'zh-CN',
-  base: "/repo/",
+  base: "/baucd-ui/",
   title: 'BaucdUI',
   description: '组件库',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
@@ -25,14 +22,6 @@ module.exports = {
     sidebarDepth: 2, // 侧边栏显示2级
   },
   plugins: [
-    [
-      '@vuepress/plugin-register-components',
-      {
-        componentsDir: path.resolve(__dirname, './components')
-      }
-    ],
-    [
-      'vuepress-plugin-demoblock-plus'
-    ]
+    [ 'vuepress-plugin-demoblock-plus']
   ]
 }

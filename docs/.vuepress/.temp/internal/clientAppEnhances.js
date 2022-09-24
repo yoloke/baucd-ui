@@ -1,9 +1,9 @@
-import clientAppEnhance0 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/node_modules/@vuepress/plugin-external-link-icon/lib/client/clientAppEnhance.js'
-import clientAppEnhance1 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/node_modules/@vuepress/plugin-medium-zoom/lib/client/clientAppEnhance.js'
-import clientAppEnhance2 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/node_modules/@vuepress/plugin-theme-data/lib/client/clientAppEnhance.js'
-import clientAppEnhance3 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/node_modules/@vuepress/theme-default/lib/client/clientAppEnhance.js'
-import clientAppEnhance4 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/docs/.vuepress/.temp/register-components/clientAppEnhance.839a3a34.js'
-import clientAppEnhance5 from 'C:/Users/张996/Desktop/BaucdUI-Vuepress2.0/node_modules/vuepress-plugin-demoblock-plus/client/clientAppEnhance.js'
+import clientAppEnhance0 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/node_modules/@vuepress/plugin-external-link-icon/lib/client/clientAppEnhance.js'
+import clientAppEnhance1 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/node_modules/@vuepress/plugin-medium-zoom/lib/client/clientAppEnhance.js'
+import clientAppEnhance2 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/node_modules/@vuepress/plugin-theme-data/lib/client/clientAppEnhance.js'
+import clientAppEnhance3 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/node_modules/@vuepress/theme-default/lib/client/clientAppEnhance.js'
+import clientAppEnhance4 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/node_modules/vuepress-plugin-demoblock-plus/client/clientAppEnhance.js'
+import clientAppEnhance5 from 'C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/clientAppEnhance.js'
 
 export const clientAppEnhances = [
   clientAppEnhance0,

@@ -1,1 +1,0 @@
-import{_ as o,r as t,o as n,c}from"./app.2f9f2d59.js";const r={};function _(a,s){const e=t("ba-button");return n(),c(e,{circle:"",icon:"eye"})}var f=o(r,[["render",_],["__file","Button.vue"]]);export{f as default};
