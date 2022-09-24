@@ -27,12 +27,12 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1664007186000,
+    "updatedTime": 1664013151000,
     "contributors": [
       {
         "name": "Baucd",
         "email": "2575735053@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
