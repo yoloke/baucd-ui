@@ -3,10 +3,6 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /components/
   "v-1020f180": () => import(/* webpackChunkName: "v-1020f180" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/components/index.html.js").then(({ data }) => data),
-  // path: /document/introduction/
-  "v-7d85779a": () => import(/* webpackChunkName: "v-7d85779a" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/document/introduction/index.html.js").then(({ data }) => data),
-  // path: /document/tips/
-  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /components/pages/Button.html
   "v-b959d088": () => import(/* webpackChunkName: "v-b959d088" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/components/pages/Button.html.js").then(({ data }) => data),
   // path: /components/pages/Checkbox.html
@@ -21,6 +17,10 @@ export const pagesData = {
   "v-25bf176e": () => import(/* webpackChunkName: "v-25bf176e" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/components/pages/Radio.html.js").then(({ data }) => data),
   // path: /components/pages/Switch.html
   "v-e9c58e0c": () => import(/* webpackChunkName: "v-e9c58e0c" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/components/pages/Switch.html.js").then(({ data }) => data),
+  // path: /document/introduction/
+  "v-7d85779a": () => import(/* webpackChunkName: "v-7d85779a" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/document/introduction/index.html.js").then(({ data }) => data),
+  // path: /document/tips/
+  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/张996/Desktop/新建文件夹/ZYNvuepress/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

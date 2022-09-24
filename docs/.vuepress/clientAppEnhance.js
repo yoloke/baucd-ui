@@ -4,6 +4,6 @@ import 'baucd-ui/dist/baucd-ui.css'
 
 import { defineClientAppEnhance } from '@vuepress/client'
 
-export default defineClientAppEnhance(({ app, router, siteData }) => {
+export default defineClientAppEnhance(({ app }) => {
   app.use(BaucdUI)
 })
