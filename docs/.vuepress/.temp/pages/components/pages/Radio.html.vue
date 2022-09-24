@@ -176,8 +176,8 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_1
       ]),
-      _: 1 /* STABLE */
-    }, 8 /* PROPS */, ["modelValue"]),
+      _: 1
+    }, 8, ["modelValue"]),
     _createVNode(_component_ba_radio, {
       modelValue: _ctx.radio,
       "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ((_ctx.radio) = $event)),
@@ -186,9 +186,9 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_2
       ]),
-      _: 1 /* STABLE */
-    }, 8 /* PROPS */, ["modelValue"])
-  ], 64 /* STABLE_FRAGMENT */))
+      _: 1
+    }, 8, ["modelValue"])
+  ], 64))
 }
   
     const democomponentExport = {
@@ -222,8 +222,8 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_1
       ]),
-      _: 1 /* STABLE */
-    }, 8 /* PROPS */, ["modelValue"]),
+      _: 1
+    }, 8, ["modelValue"]),
     _createVNode(_component_ba_radio, {
       disabled: "",
       modelValue: _ctx.radio,
@@ -233,9 +233,9 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_2
       ]),
-      _: 1 /* STABLE */
-    }, 8 /* PROPS */, ["modelValue"])
-  ], 64 /* STABLE_FRAGMENT */))
+      _: 1
+    }, 8, ["modelValue"])
+  ], 64))
 }
   
     const democomponentExport = {
@@ -270,23 +270,23 @@ function render(_ctx, _cache) {
         default: _withCtx(() => [
           _hoisted_1
         ]),
-        _: 1 /* STABLE */
+        _: 1
       }),
       _createVNode(_component_ba_radio, { label: 6 }, {
         default: _withCtx(() => [
           _hoisted_2
         ]),
-        _: 1 /* STABLE */
+        _: 1
       }),
       _createVNode(_component_ba_radio, { label: 9 }, {
         default: _withCtx(() => [
           _hoisted_3
         ]),
-        _: 1 /* STABLE */
+        _: 1
       })
     ]),
-    _: 1 /* STABLE */
-  }, 8 /* PROPS */, ["modelValue"]))
+    _: 1
+  }, 8, ["modelValue"]))
 }
   
     const democomponentExport = {

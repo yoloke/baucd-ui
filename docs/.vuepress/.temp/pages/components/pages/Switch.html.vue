@@ -120,7 +120,7 @@ function render(_ctx, _cache) {
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.value) = $event)),
     activeColor: "#13ce66",
     inactiveColor: "#ff4949"
-  }, null, 8 /* PROPS */, ["modelValue"]))
+  }, null, 8, ["modelValue"]))
 }
   
     const democomponentExport = {
