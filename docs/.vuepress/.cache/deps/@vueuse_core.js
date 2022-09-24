@@ -4,7 +4,6 @@ import {
   effectScope,
   getCurrentInstance,
   getCurrentScope,
-  init_runtime_dom_esm_bundler,
   inject,
   isRef,
   markRaw,
@@ -26,35 +25,33 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-2QFZ2SZC.js";
-import "./chunk-RSKYZ57M.js";
+} from "./chunk-NJCYJEW6.js";
+import "./chunk-ERWGD5OZ.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-NPPL73Q6.js";
+} from "./chunk-LHFWWTYY.js";
 
 // dep:@vueuse_core
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
 
-// node_modules/@vueuse/core/index.mjs
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/core/index.mjs
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
 
-// node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/shared/index.mjs
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
 
-// node_modules/@vueuse/core/node_modules/vue-demi/lib/index.mjs
+// node_modules/vue-demi/lib/index.mjs
 init_define_DEMOBLOCK_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_MZ_ZOOM_OPTIONS();
-init_runtime_dom_esm_bundler();
-init_runtime_dom_esm_bundler();
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {
@@ -74,7 +71,7 @@ function del(target, key) {
   delete target[key];
 }
 
-// node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/shared/index.mjs
 var __defProp$8 = Object.defineProperty;
 var __defProps$5 = Object.defineProperties;
 var __getOwnPropDescs$5 = Object.getOwnPropertyDescriptors;
@@ -1323,7 +1320,7 @@ function whenever(source, cb, options) {
   }, options);
 }
 
-// node_modules/@vueuse/core/index.mjs
+// node_modules/@vuepress/theme-default/node_modules/@vueuse/core/index.mjs
 function computedAsync(evaluationCallback, initialState, optionsOrRef) {
   let options;
   if (isRef(optionsOrRef)) {

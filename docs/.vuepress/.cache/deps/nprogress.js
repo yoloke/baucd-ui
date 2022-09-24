@@ -3,7 +3,7 @@ import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-NPPL73Q6.js";
+} from "./chunk-LHFWWTYY.js";
 
 // node_modules/nprogress/nprogress.js
 var require_nprogress = __commonJS({

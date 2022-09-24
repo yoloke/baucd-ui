@@ -6,7 +6,7 @@ export const data = {
   "frontmatter": {
     "home": true,
     "heroImage": "/img/logo.png",
-    "actionText": "快速上手 →",
+    "actionText": "快速上手哈哈 →",
     "actionLink": "/zh/`guide/",
     "features": [
       {
@@ -27,14 +27,27 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1664003919000,
+    "updatedTime": 1664007186000,
     "contributors": [
       {
         "name": "Baucd",
         "email": "2575735053@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
   "filePathRelative": "README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

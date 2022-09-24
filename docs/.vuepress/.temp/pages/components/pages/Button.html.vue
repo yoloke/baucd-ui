@@ -203,24 +203,24 @@ const _hoisted_3 = /*#__PURE__*/_createTextVNode("成功按钮")
 const _hoisted_4 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_5 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_6 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
+const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
 const _hoisted_9 = /*#__PURE__*/_createTextVNode("朴素按钮")
 const _hoisted_10 = /*#__PURE__*/_createTextVNode("主要按钮")
 const _hoisted_11 = /*#__PURE__*/_createTextVNode("成功按钮")
 const _hoisted_12 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_13 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_14 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_15 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_16 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_15 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
+const _hoisted_16 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
 const _hoisted_17 = /*#__PURE__*/_createTextVNode("圆角按钮")
 const _hoisted_18 = /*#__PURE__*/_createTextVNode("主要按钮")
 const _hoisted_19 = /*#__PURE__*/_createTextVNode("成功按钮")
 const _hoisted_20 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_21 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_22 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_23 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_24 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_23 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
+const _hoisted_24 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
 
 function render(_ctx, _cache) {
   const _component_ba_button = _resolveComponent("ba-button")
@@ -230,37 +230,37 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_1
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, { type: "primary" }, {
       default: _withCtx(() => [
         _hoisted_2
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, { type: "success" }, {
       default: _withCtx(() => [
         _hoisted_3
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, { type: "info" }, {
       default: _withCtx(() => [
         _hoisted_4
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, { type: "warning" }, {
       default: _withCtx(() => [
         _hoisted_5
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, { type: "danger" }, {
       default: _withCtx(() => [
         _hoisted_6
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _hoisted_7,
     _hoisted_8,
@@ -268,7 +268,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_9
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "primary",
@@ -277,7 +277,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_10
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "success",
@@ -286,7 +286,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_11
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "info",
@@ -295,7 +295,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_12
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "warning",
@@ -304,7 +304,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_13
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "danger",
@@ -313,7 +313,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_14
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _hoisted_15,
     _hoisted_16,
@@ -321,7 +321,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_17
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "primary",
@@ -330,7 +330,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_18
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "success",
@@ -339,7 +339,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_19
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "info",
@@ -348,7 +348,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_20
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "warning",
@@ -357,7 +357,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_21
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "danger",
@@ -366,7 +366,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_22
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _hoisted_23,
     _hoisted_24,
@@ -399,7 +399,7 @@ function render(_ctx, _cache) {
       icon: "delete",
       circle: ""
     })
-  ], 64))
+  ], 64 /* STABLE_FRAGMENT */))
 }
   
     const democomponentExport = {}
@@ -417,8 +417,8 @@ const _hoisted_3 = /*#__PURE__*/_createTextVNode("成功按钮")
 const _hoisted_4 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_5 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_6 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
+const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1 /* HOISTED */)
 const _hoisted_9 = /*#__PURE__*/_createTextVNode("朴素按钮")
 const _hoisted_10 = /*#__PURE__*/_createTextVNode("主要按钮")
 const _hoisted_11 = /*#__PURE__*/_createTextVNode("成功按钮")
@@ -434,7 +434,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_1
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "primary",
@@ -443,7 +443,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_2
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "success",
@@ -452,7 +452,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_3
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "info",
@@ -461,7 +461,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_4
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "warning",
@@ -470,7 +470,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_5
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "danger",
@@ -479,7 +479,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_6
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _hoisted_7,
     _hoisted_8,
@@ -490,7 +490,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_9
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "primary",
@@ -500,7 +500,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_10
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "success",
@@ -510,7 +510,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_11
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "info",
@@ -520,7 +520,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_12
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "warning",
@@ -530,7 +530,7 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_13
       ]),
-      _: 1
+      _: 1 /* STABLE */
     }),
     _createVNode(_component_ba_button, {
       type: "danger",
@@ -540,9 +540,9 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_14
       ]),
-      _: 1
+      _: 1 /* STABLE */
     })
-  ], 64))
+  ], 64 /* STABLE_FRAGMENT */))
 }
   
     const democomponentExport = {}

@@ -218,7 +218,7 @@ function render(_ctx, _cache) {
     modelValue: _ctx.input,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.input) = $event)),
     placeholder: "请输入内容"
-  }, null, 8, ["modelValue"]))
+  }, null, 8 /* PROPS */, ["modelValue"]))
 }
   
     const democomponentExport = {
@@ -244,7 +244,7 @@ function render(_ctx, _cache) {
     modelValue: _ctx.input,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.input) = $event)),
     disabled: true
-  }, null, 8, ["modelValue"]))
+  }, null, 8 /* PROPS */, ["modelValue"]))
 }
   
     const democomponentExport = {
@@ -270,7 +270,7 @@ function render(_ctx, _cache) {
     modelValue: _ctx.input,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.input) = $event)),
     clearable: ""
-  }, null, 8, ["modelValue"]))
+  }, null, 8 /* PROPS */, ["modelValue"]))
 }
   
     const democomponentExport = {
@@ -296,7 +296,7 @@ function render(_ctx, _cache) {
     modelValue: _ctx.password,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.password) = $event)),
     showPassword: ""
-  }, null, 8, ["modelValue"]))
+  }, null, 8 /* PROPS */, ["modelValue"]))
 }
   
     const democomponentExport = {

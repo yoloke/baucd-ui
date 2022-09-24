@@ -2,12 +2,12 @@ import {
   isPerformanceSupported,
   now,
   setupDevtoolsPlugin
-} from "./chunk-SAOYSPOS.js";
+} from "./chunk-2DFLXXSQ.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-NPPL73Q6.js";
+} from "./chunk-LHFWWTYY.js";
 
 // dep:@vue_devtools-api
 init_define_DEMOBLOCK_LOCALES();

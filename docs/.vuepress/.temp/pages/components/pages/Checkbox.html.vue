@@ -169,22 +169,25 @@
         components: {
           "render-demo-0": (function() {
     
-    const { createTextVNode: _createTextVNode, resolveComponent: _resolveComponent, withCtx: _withCtx, openBlock: _openBlock, createBlock: _createBlock } = Vue
+    const { createCommentVNode: _createCommentVNode, createTextVNode: _createTextVNode, resolveComponent: _resolveComponent, withCtx: _withCtx, createVNode: _createVNode, Fragment: _Fragment, openBlock: _openBlock, createElementBlock: _createElementBlock } = Vue
 
 const _hoisted_1 = /*#__PURE__*/_createTextVNode("备选项")
 
 function render(_ctx, _cache) {
   const _component_ba_checkbox = _resolveComponent("ba-checkbox")
 
-  return (_openBlock(), _createBlock(_component_ba_checkbox, {
-    modelValue: _ctx.checked,
-    "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.checked) = $event))
-  }, {
-    default: _withCtx(() => [
-      _hoisted_1
-    ]),
-    _: 1
-  }, 8, ["modelValue"]))
+  return (_openBlock(), _createElementBlock(_Fragment, null, [
+    _createCommentVNode(" `checked` 为 true 或 false "),
+    _createVNode(_component_ba_checkbox, {
+      modelValue: _ctx.checked,
+      "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.checked) = $event))
+    }, {
+      default: _withCtx(() => [
+        _hoisted_1
+      ]),
+      _: 1 /* STABLE */
+    }, 8 /* PROPS */, ["modelValue"])
+  ], 2112 /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */))
 }
   
     const democomponentExport = {
@@ -217,8 +220,8 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_1
       ]),
-      _: 1
-    }, 8, ["modelValue"]),
+      _: 1 /* STABLE */
+    }, 8 /* PROPS */, ["modelValue"]),
     _createVNode(_component_ba_checkbox, {
       modelValue: _ctx.checked2,
       "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ((_ctx.checked2) = $event)),
@@ -227,9 +230,9 @@ function render(_ctx, _cache) {
       default: _withCtx(() => [
         _hoisted_2
       ]),
-      _: 1
-    }, 8, ["modelValue"])
-  ], 64))
+      _: 1 /* STABLE */
+    }, 8 /* PROPS */, ["modelValue"])
+  ], 64 /* STABLE_FRAGMENT */))
 }
   
     const democomponentExport = {
@@ -269,8 +272,8 @@ function render(_ctx, _cache) {
         disabled: ""
       })
     ]),
-    _: 1
-  }, 8, ["modelValue"]))
+    _: 1 /* STABLE */
+  }, 8 /* PROPS */, ["modelValue"]))
 }
   
     const democomponentExport = {
