@@ -2,11 +2,11 @@
   <div
     class="ba-switch"
     @click="handleClick"
-    :class="{ 'is-checked': modelValue }"
-  >
-    <span class="ba-switch_core" ref="core"
-      ><!-- 小圆点 --><span class="ba-switch_button"></span
-    ></span>
+    :class="{ 'is-checked': modelValue, 'is-disabled': disabled }">
+    <span class="ba-switch_core" ref="core">
+      <!-- 小圆点 -->
+      <span class="ba-switch_button"></span>
+    </span>
     <input type="checkbox" class="ba-switch_input" :name="name" ref="input" />
   </div>
 </template>
@@ -31,6 +31,10 @@ export default {
       type: String,
       default: "",
     },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
   },
   methods: {
     handleClick() {
@@ -54,8 +58,8 @@ export default {
         var color = newValue ? this.activeColor : this.inactiveColor;
         this.$refs.core.style.borderColor = color;
         this.$refs.core.style.backgroundColor = color;
-          }
-       // 控制checkbox的值,input值同步value值
+      }
+      // 控制checkbox的值,input值同步value值
       this.$refs.input.checked = this.modelValue;
     },
   },
@@ -69,6 +73,7 @@ export default {
   font-size: 14px;
   line-height: 20px;
   vertical-align: middle;
+
   .ba-switch_core {
     margin: 0;
     display: inline-block;
@@ -102,16 +107,19 @@ export default {
     opacity: 0;
     margin: 0;
   }
-}
-// 选中样式
-.is-checked {
-  .ba-switch_core {
-    border-color: #409eff;
-    background-color: #409eff;
-    .ba-switch_button {
-      //移动小圆点
-      transform: translateX(20px);
+  // 选中样式
+  &.is-checked {
+    .ba-switch_core {
+      border-color: #409eff;
+      background-color: #409eff;
+      .ba-switch_button {
+        //移动小圆点
+        transform: translateX(20px);
+      }
     }
+  }
+  &.is-disabled {
+    cursor: not-allowed;
   }
 }
 </style>

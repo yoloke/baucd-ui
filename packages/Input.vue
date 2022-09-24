@@ -16,7 +16,7 @@
     <span class="ba-input_suffix" v-if="showSuffix">
       <!-- 清空的小图标 -->
       <i
-        class="ba-icon-cancel"
+        class="ba-icon-x-circle"
         v-if="clearable && modelValue"
         @click="clear"
       ></i>

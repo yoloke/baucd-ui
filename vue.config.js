@@ -1,8 +1,8 @@
 const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
-const publicPath = process.env.NODE_ENV ==='production'?'../../':'./'
+const publicPath = process.env.NODE_ENV ==='production'?'../../':''
 module.exports = defineConfig({
-  publicPath:publicPath,
+  publicPath: publicPath,
   pages: {
     index: {
       // 修改项目入口文件

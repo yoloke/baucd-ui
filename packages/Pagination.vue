@@ -38,10 +38,10 @@
         <li class="next" @click="$emit('getPageNo',pageNo + 1)">
           <a href="#">下一页»</a>
         </li>
+        <li>
+          <span>共{{ total }}个商品&nbsp;</span>
+        </li>
       </ul>
-      <div>
-        <span>共{{ total }}个商品&nbsp;</span>
-      </div>
     </div>
   </div>
 </template>
@@ -54,7 +54,7 @@ export default {
   //total一共有多少数据
   //continues代表分页连续页码个数  一般是5和7  奇数  对称
   props: ["pageNo", "pageSize", "total", "continues"],
-  name: "Pagination",
+  name: "BaPagination",
   computed: {
     //计算一共多少页
     totalPage() {
@@ -96,6 +96,14 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+  /* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; color: #666;}
+a:link:hover {
+    color: #ff6700 !important;
+}
 .page {
   overflow: hidden;
   margin: 0 auto;
@@ -109,7 +117,6 @@ export default {
       display: flex;
       vertical-align: middle;
       li {
-        height: 18px;
         a {
           position: relative;
           float: left;

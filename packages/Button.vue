@@ -66,6 +66,8 @@ export default {
   display: inline-block;
   line-height: 1;
   white-space: nowrap;
+  margin-bottom: 20px;
+  margin-left: 10px;
   cursor: pointer;
   background: #ffffff;
   border: 1px solid #dcdfe6;
