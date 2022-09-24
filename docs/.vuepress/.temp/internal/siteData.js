@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/BaucdUI/",
   "lang": "zh-CN",
   "title": "BaucdUI",
   "description": "组件库",

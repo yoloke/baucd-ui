@@ -7,6 +7,7 @@ const sidebar = require('./config/sidebar')
 module.exports = {
   // 站点配置
   lang: 'zh-CN',
+  base: "/BaucdUI/",
   title: 'BaucdUI',
   description: '组件库',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
