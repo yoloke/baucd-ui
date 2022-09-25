@@ -3,7 +3,12 @@
     class="ba-button"
     :class="[
       `ba-button-${type}`,
-      { 'is-plain': plain, 'is-round': round, 'is-circle': circle,'is-disabled':disabled },
+      {
+        'is-plain': plain,
+        'is-round': round,
+        'is-circle': circle,
+        'is-disabled': disabled,
+      },
     ]"
     @click="handleClick"
     :disabled="disabled"
@@ -51,6 +56,11 @@ export default {
       type: Boolean,
       default: false,
     },
+    //按钮是否加载
+    loading: {
+      type: Boolean,
+      default: false,
+    },
   },
   //声明click为自定义事件
   emits: ["click"],
@@ -58,7 +68,7 @@ export default {
     handleClick(e) {
       this.$emit("click", e);
     },
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -76,7 +86,6 @@ export default {
   text-align: center;
   box-sizing: border-box;
   outline: none;
-  margin: 0;
   transition: 0.1s;
   font-weight: 500;
   //禁止元素的文字被选中
@@ -221,11 +230,22 @@ export default {
   padding: 12px;
 }
 // 设置icon配套样式，使图标和文字之间有一定间隔
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  animation: spin 2s infinite linear;
+}
 .ba-button [class*="ba-icon-"] + span {
   margin-left: 5px;
 }
-.ba-button.is-disabled{
-  opacity: .5;
-   cursor: no-drop;
+.ba-button.is-disabled {
+  opacity: 0.5;
+  cursor: no-drop;
 }
 </style>

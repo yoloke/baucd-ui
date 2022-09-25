@@ -1,60 +1,78 @@
 <!--  -->
 <template>
   <!-- 分页器 -->
-  <div class="fr page">
-    <div class="sui-pagination clearfix">
-      <ul>
-        <!-- 上一页 -->
-        <li
-          class="prev"
-          :class="pageNo == 1 ? 'disabled' : ''"
-          @click="$emit('getPageNo', pageNo - 1)"
-        >
-          <a>«上一页</a>
-        </li>
-
-        <li v-if="startAndEnd.start > 1" @click="$emit('getPageNo', 1)">
-          <a>1</a>
-        </li>
-        <li class="dotted" v-if="startAndEnd.start > 2"><span>...</span></li>
-        <!-- 中间连续页码的地方:v-for、数组、对象、数字、字符串 -->
-        <li
-          v-for="page in startAndEnd.end"
-          :key="page"
-          v-show="page >= startAndEnd.start"
-          :class="{active:pageNo==page}"
-          @click="$emit('getPageNo', page)"
-        >
-          <a>{{ page }}</a>
-        </li>
-        <li class="dotted" v-if="startAndEnd.end < totalPage - 1">
-          <span>...</span>
-        </li>
-        <li v-if="startAndEnd.end < totalPage" @click="$emit('getPageNo', totalPage)">
-          <a>{{ totalPage }}</a>
-        </li>
-
-        <!-- 下一页 -->
-        <li class="next" @click="$emit('getPageNo',pageNo + 1)">
-          <a href="#">下一页»</a>
-        </li>
-        <li>
-          <span>共{{ total }}个商品&nbsp;</span>
-        </li>
-      </ul>
-    </div>
+  <div class="ba-pagination">
+    <!-- 上一页 -->
+    <ba-button
+      class="ba-button"
+      :class="pageNo == 1 ? 'disabled' : ''"
+      @click="getPageNo(pageNo - 1)"
+      icon="chevron-left"
+    >
+    </ba-button>
+    <ul>
+      <!-- 第一页 -->
+      <li v-if="startAndEnd.start > 1" @click="$emit('getPageNo', 1)">1</li>
+      <li v-if="startAndEnd.start > 2" @click="$emit('getPageNo', pageNo - pageDotted)">
+        <i class="dotted1 ba-icon-more-horizontal"></i>
+      </li>
+      <!-- 中间连续页码的地方:v-for、数组、对象、数字、字符串 -->
+      <li
+        v-for="page in startAndEnd.end"
+        :key="page"
+        v-show="page >= startAndEnd.start"
+        :class="{ active: pageNo == page }"
+        @click="getPageNo(page)"
+      >
+        {{ page }}
+      </li>
+      <li
+        v-if="startAndEnd.end < totalPage - 2"
+        @click="$emit('getPageNo', pageNo + pageDotted)"
+      >
+        <i class="dotted2 ba-icon-more-horizontal"></i>
+      </li>
+      <!-- 最后一页 -->
+      <li v-if="startAndEnd.end < totalPage" @click="getPageNo(totalPage)">
+        {{ totalPage }}
+      </li>
+    </ul>
+    <!-- 下一页 -->
+    <ba-button
+      class="ba-button"
+      icon="chevron-right"
+      :class="pageNo == totalPage ? 'disabled' : ''"
+      @click="getPageNo(pageNo + 1)"
+    >
+    </ba-button>
   </div>
 </template>
 
 <script>
 export default {
-  //分页器起始与数据计算
+  name: "BaPagination",
   //pageNo当前页
   //pageSize一页多少数据
   //total一共有多少数据
   //continues代表分页连续页码个数  一般是5和7  奇数  对称
-  props: ["pageNo", "pageSize", "total", "continues"],
-  name: "BaPagination",
+  props: {
+    pageNo: {
+      type: Number,
+      default: 1,
+    },
+    pageSize: {
+      type: Number,
+      default: 10,
+    },
+    total: {
+      type: Number,
+      default: 100,
+    },
+    continues: {
+      type: Number,
+      default: 5,
+    },
+  },
   computed: {
     //计算一共多少页
     totalPage() {
@@ -90,93 +108,70 @@ export default {
           start = totalPage - continues + 1;
         }
       }
+      end = parseInt(end);
+      start = parseInt(start);
       return { start, end };
+    },
+    pageDotted() {
+      return parseInt(this.continues/2+1)
+    }
+  },
+  methods: {
+    getPageNo(pages) {
+      this.$emit("getPageNo", pages);
     },
   },
 };
 </script>
 <style scoped lang="scss">
-  /* 重置列表元素 */
-ul, ol { list-style: none; }
-
-/* 重置文本格式元素 */
-a { text-decoration: none; color: #666;}
-a:link:hover {
-    color: #ff6700 !important;
-}
-.page {
-  overflow: hidden;
-  margin: 0 auto;
-  margin-bottom: 18px;
-
-  .sui-pagination {
-    display: flex;
-    justify-content: center;
-
-    ul {
-      display: flex;
-      vertical-align: middle;
-      li {
-        a {
-          position: relative;
-          float: left;
-          line-height: 18px;
-          background-color: #fff;
-          border: 1px solid #e0e9ee;
-          font-size: 14px;
-          padding: 11px 18px;
-          color: #333;
-        }
-
-        &.active {
-          a {
-            background-color: #fff;
-            color: #e1251b;
-            border-color: #e1251b;
-            cursor: default;
-          }
-        }
-
-        &.prev {
-          a {
-            background-color: #fafafa;
-          }
-        }
-
-        &.disabled {
-          pointer-events: none;
-          a {
-            color: #999;
-            cursor: default;
-          }
-        }
-
-        &.dotted {
-          span {
-            line-height: 42px;
-            text-decoration: none;
-            background-color: #fff;
-            font-size: 14px;
-            border: 0;
-            padding: 0 18px;
-            color: #333;
-          }
-        }
-
-        &.next {
-          a {
-            background-color: #fafafa;
-          }
+.ba-pagination {
+  display: flex;
+  justify-content: center;
+  .ba-button {
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    height: 40px;
+    margin: 0;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0);
+      color: #409eff;
+    }
+    &.disabled {
+      pointer-events: none;
+      color: #999;
+      cursor: default;
+    }
+  }
+  ul {
+    li {
+      position: relative;
+      float: left;
+      height: 18px;
+      line-height: 18px;
+      font-size: 14px;
+      padding: 11px 18px;
+      color: #333;
+      &:hover {
+        cursor: pointer;
+        color: #409eff;
+      }
+      &.active {
+        color: #409eff;
+        cursor: default;
+      }
+      .dotted2 {
+        font-size: 16px;
+        &:hover::before {
+          content: "\e938";
         }
       }
-    }
-
-    div {
-      margin-left: 10px;
-      color: #333;
-      font-size: 14px;
-      height: 42px;
-      line-height: 42px;
+      .dotted1 {
+        font-size: 16px;
+        &:hover::before {
+          content: "\e937";
+        }
+      }
     }
   }
 }

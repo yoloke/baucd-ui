@@ -3,6 +3,8 @@
 // 统一导出
 // 导出颜色选择器组件
 import Button from './Button'
+import Icon from './Icon'
+import IconList from './IconList'
 import Dialog from './Dialog'
 import Input from './Input'
 import Checkbox from './Checkbox'
@@ -21,6 +23,8 @@ import './fonts/style.css'
 
 const components = [
     Button,
+    Icon,
+    IconList,
     Dialog,
     Input,
     Checkbox,
