@@ -5,21 +5,7 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Pagination 分页",
-      "slug": "pagination-分页",
-      "children": [
-        {
-          "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法",
-          "children": []
-        }
-      ]
-    }
-  ],
+  "headers": [],
   "git": {
     "updatedTime": 1664003919000,
     "contributors": [

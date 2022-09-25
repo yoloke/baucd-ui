@@ -12,6 +12,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "baucd-ui": "^0.2.6"
+    "baucd-ui": "^0.2.11"
   }
 }

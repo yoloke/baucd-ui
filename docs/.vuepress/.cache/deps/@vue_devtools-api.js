@@ -2,7 +2,7 @@ import {
   isPerformanceSupported,
   now,
   setupDevtoolsPlugin
-} from "./chunk-AROBXWMY.js";
+} from "./chunk-HER3UQA3.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,

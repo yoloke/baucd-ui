@@ -11,7 +11,6 @@
   &lt;ba-button type=&quot;warning&quot;&gt;警告按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;danger&quot;&gt;危险按钮&lt;/ba-button&gt;
   &lt;br/&gt;
-  &lt;br/&gt;
   &lt;ba-button plain&gt;朴素按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;primary&quot; plain&gt;主要按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;success&quot; plain&gt;成功按钮&lt;/ba-button&gt;
@@ -19,14 +18,12 @@
   &lt;ba-button type=&quot;warning&quot; plain&gt;警告按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;danger&quot; plain&gt;危险按钮&lt;/ba-button&gt;
   &lt;br/&gt;
-  &lt;br/&gt;
   &lt;ba-button round&gt;圆角按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;primary&quot; round&gt;主要按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;success&quot; round&gt;成功按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;info&quot; round&gt;信息按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;warning&quot; round&gt;警告按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;danger&quot; round&gt;危险按钮&lt;/ba-button&gt;
-  &lt;br/&gt;
   &lt;br/&gt;
    &lt;ba-button icon=&quot;search&quot; circle&gt;&lt;/ba-button&gt;
   &lt;ba-button type=&quot;primary&quot; icon=&quot;edit&quot; circle&gt;&lt;/ba-button&gt;
@@ -50,7 +47,6 @@
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;warning&quot;</span><span style="color: var(--shiki-color-text)">&gt;警告按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;danger&quot;</span><span style="color: var(--shiki-color-text)">&gt;危险按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)">&gt;朴素按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;primary&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)">&gt;主要按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;success&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)">&gt;成功按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -58,14 +54,12 @@
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;warning&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)">&gt;警告按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;danger&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)">&gt;危险按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;圆角按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;primary&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;主要按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;success&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;成功按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;info&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;信息按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;warning&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;警告按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;danger&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">round</span><span style="color: var(--shiki-color-text)">&gt;危险按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">   &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">icon</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;search&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">circle</span><span style="color: var(--shiki-color-text)">&gt;&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;primary&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">icon</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;edit&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">circle</span><span style="color: var(--shiki-color-text)">&gt;&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -86,7 +80,6 @@
   &lt;ba-button type=&quot;info&quot; disabled&gt;信息按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;warning&quot; disabled&gt;警告按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;danger&quot; disabled&gt;危险按钮&lt;/ba-button&gt;
-  &lt;br/&gt;
   &lt;br/&gt;
   &lt;ba-button plain disabled&gt;朴素按钮&lt;/ba-button&gt;
   &lt;ba-button type=&quot;primary&quot; plain disabled&gt;主要按钮&lt;/ba-button&gt;
@@ -109,7 +102,6 @@
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;info&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">disabled</span><span style="color: var(--shiki-color-text)">&gt;信息按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;warning&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">disabled</span><span style="color: var(--shiki-color-text)">&gt;警告按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;danger&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">disabled</span><span style="color: var(--shiki-color-text)">&gt;危险按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">br</span><span style="color: var(--shiki-color-text)">/&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">disabled</span><span style="color: var(--shiki-color-text)">&gt;朴素按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">type</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;primary&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">plain</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">disabled</span><span style="color: var(--shiki-color-text)">&gt;主要按钮&lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-button</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -134,17 +126,12 @@
 <tr>
 <td>type</td>
 <td>String</td>
-<td>按钮类型：primary,info,success,warning,danger</td>
+<td>按钮类型：primary、info、success、warning、danger</td>
 </tr>
 <tr>
 <td>plain</td>
 <td>Boolean</td>
 <td>是否为朴素按钮，默认为 false</td>
-</tr>
-<tr>
-<td>mimicry</td>
-<td>Boolean</td>
-<td>是否为拟态按钮，和 plain 不能同时设置，会被 plain 覆盖。默认为 false</td>
 </tr>
 <tr>
 <td>disabled</td>
@@ -163,8 +150,8 @@
 </tr>
 <tr>
 <td>icon</td>
-<td>Array 或 Boolean</td>
-<td>font-awesome 字体数组，默认为 false</td>
+<td>String</td>
+<td>按钮图标</td>
 </tr>
 </tbody>
 </table>
@@ -204,23 +191,20 @@ const _hoisted_4 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_5 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_6 = /*#__PURE__*/_createTextVNode("危险按钮")
 const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_9 = /*#__PURE__*/_createTextVNode("朴素按钮")
-const _hoisted_10 = /*#__PURE__*/_createTextVNode("主要按钮")
-const _hoisted_11 = /*#__PURE__*/_createTextVNode("成功按钮")
-const _hoisted_12 = /*#__PURE__*/_createTextVNode("信息按钮")
-const _hoisted_13 = /*#__PURE__*/_createTextVNode("警告按钮")
-const _hoisted_14 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_15 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_16 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_17 = /*#__PURE__*/_createTextVNode("圆角按钮")
-const _hoisted_18 = /*#__PURE__*/_createTextVNode("主要按钮")
-const _hoisted_19 = /*#__PURE__*/_createTextVNode("成功按钮")
-const _hoisted_20 = /*#__PURE__*/_createTextVNode("信息按钮")
-const _hoisted_21 = /*#__PURE__*/_createTextVNode("警告按钮")
-const _hoisted_22 = /*#__PURE__*/_createTextVNode("危险按钮")
-const _hoisted_23 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_24 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_8 = /*#__PURE__*/_createTextVNode("朴素按钮")
+const _hoisted_9 = /*#__PURE__*/_createTextVNode("主要按钮")
+const _hoisted_10 = /*#__PURE__*/_createTextVNode("成功按钮")
+const _hoisted_11 = /*#__PURE__*/_createTextVNode("信息按钮")
+const _hoisted_12 = /*#__PURE__*/_createTextVNode("警告按钮")
+const _hoisted_13 = /*#__PURE__*/_createTextVNode("危险按钮")
+const _hoisted_14 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
+const _hoisted_15 = /*#__PURE__*/_createTextVNode("圆角按钮")
+const _hoisted_16 = /*#__PURE__*/_createTextVNode("主要按钮")
+const _hoisted_17 = /*#__PURE__*/_createTextVNode("成功按钮")
+const _hoisted_18 = /*#__PURE__*/_createTextVNode("信息按钮")
+const _hoisted_19 = /*#__PURE__*/_createTextVNode("警告按钮")
+const _hoisted_20 = /*#__PURE__*/_createTextVNode("危险按钮")
+const _hoisted_21 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
 
 function render(_ctx, _cache) {
   const _component_ba_button = _resolveComponent("ba-button")
@@ -263,15 +247,23 @@ function render(_ctx, _cache) {
       _: 1
     }),
     _hoisted_7,
-    _hoisted_8,
     _createVNode(_component_ba_button, { plain: "" }, {
+      default: _withCtx(() => [
+        _hoisted_8
+      ]),
+      _: 1
+    }),
+    _createVNode(_component_ba_button, {
+      type: "primary",
+      plain: ""
+    }, {
       default: _withCtx(() => [
         _hoisted_9
       ]),
       _: 1
     }),
     _createVNode(_component_ba_button, {
-      type: "primary",
+      type: "success",
       plain: ""
     }, {
       default: _withCtx(() => [
@@ -280,7 +272,7 @@ function render(_ctx, _cache) {
       _: 1
     }),
     _createVNode(_component_ba_button, {
-      type: "success",
+      type: "info",
       plain: ""
     }, {
       default: _withCtx(() => [
@@ -289,7 +281,7 @@ function render(_ctx, _cache) {
       _: 1
     }),
     _createVNode(_component_ba_button, {
-      type: "info",
+      type: "warning",
       plain: ""
     }, {
       default: _withCtx(() => [
@@ -298,7 +290,7 @@ function render(_ctx, _cache) {
       _: 1
     }),
     _createVNode(_component_ba_button, {
-      type: "warning",
+      type: "danger",
       plain: ""
     }, {
       default: _withCtx(() => [
@@ -306,20 +298,10 @@ function render(_ctx, _cache) {
       ]),
       _: 1
     }),
-    _createVNode(_component_ba_button, {
-      type: "danger",
-      plain: ""
-    }, {
-      default: _withCtx(() => [
-        _hoisted_14
-      ]),
-      _: 1
-    }),
-    _hoisted_15,
-    _hoisted_16,
+    _hoisted_14,
     _createVNode(_component_ba_button, { round: "" }, {
       default: _withCtx(() => [
-        _hoisted_17
+        _hoisted_15
       ]),
       _: 1
     }),
@@ -328,7 +310,7 @@ function render(_ctx, _cache) {
       round: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_18
+        _hoisted_16
       ]),
       _: 1
     }),
@@ -337,7 +319,7 @@ function render(_ctx, _cache) {
       round: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_19
+        _hoisted_17
       ]),
       _: 1
     }),
@@ -346,7 +328,7 @@ function render(_ctx, _cache) {
       round: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_20
+        _hoisted_18
       ]),
       _: 1
     }),
@@ -355,7 +337,7 @@ function render(_ctx, _cache) {
       round: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_21
+        _hoisted_19
       ]),
       _: 1
     }),
@@ -364,12 +346,11 @@ function render(_ctx, _cache) {
       round: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_22
+        _hoisted_20
       ]),
       _: 1
     }),
-    _hoisted_23,
-    _hoisted_24,
+    _hoisted_21,
     _createVNode(_component_ba_button, {
       icon: "search",
       circle: ""
@@ -418,13 +399,12 @@ const _hoisted_4 = /*#__PURE__*/_createTextVNode("信息按钮")
 const _hoisted_5 = /*#__PURE__*/_createTextVNode("警告按钮")
 const _hoisted_6 = /*#__PURE__*/_createTextVNode("危险按钮")
 const _hoisted_7 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_8 = /*#__PURE__*/_createElementVNode("br", null, null, -1)
-const _hoisted_9 = /*#__PURE__*/_createTextVNode("朴素按钮")
-const _hoisted_10 = /*#__PURE__*/_createTextVNode("主要按钮")
-const _hoisted_11 = /*#__PURE__*/_createTextVNode("成功按钮")
-const _hoisted_12 = /*#__PURE__*/_createTextVNode("信息按钮")
-const _hoisted_13 = /*#__PURE__*/_createTextVNode("警告按钮")
-const _hoisted_14 = /*#__PURE__*/_createTextVNode("危险按钮")
+const _hoisted_8 = /*#__PURE__*/_createTextVNode("朴素按钮")
+const _hoisted_9 = /*#__PURE__*/_createTextVNode("主要按钮")
+const _hoisted_10 = /*#__PURE__*/_createTextVNode("成功按钮")
+const _hoisted_11 = /*#__PURE__*/_createTextVNode("信息按钮")
+const _hoisted_12 = /*#__PURE__*/_createTextVNode("警告按钮")
+const _hoisted_13 = /*#__PURE__*/_createTextVNode("危险按钮")
 
 function render(_ctx, _cache) {
   const _component_ba_button = _resolveComponent("ba-button")
@@ -482,13 +462,12 @@ function render(_ctx, _cache) {
       _: 1
     }),
     _hoisted_7,
-    _hoisted_8,
     _createVNode(_component_ba_button, {
       plain: "",
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_9
+        _hoisted_8
       ]),
       _: 1
     }),
@@ -498,7 +477,7 @@ function render(_ctx, _cache) {
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_10
+        _hoisted_9
       ]),
       _: 1
     }),
@@ -508,7 +487,7 @@ function render(_ctx, _cache) {
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_11
+        _hoisted_10
       ]),
       _: 1
     }),
@@ -518,7 +497,7 @@ function render(_ctx, _cache) {
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_12
+        _hoisted_11
       ]),
       _: 1
     }),
@@ -528,7 +507,7 @@ function render(_ctx, _cache) {
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_13
+        _hoisted_12
       ]),
       _: 1
     }),
@@ -538,7 +517,7 @@ function render(_ctx, _cache) {
       disabled: ""
     }, {
       default: _withCtx(() => [
-        _hoisted_14
+        _hoisted_13
       ]),
       _: 1
     })

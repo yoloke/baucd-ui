@@ -1,16 +1,11 @@
 <template><h2 id="form-表单" tabindex="-1"><a class="header-anchor" href="#form-表单" aria-hidden="true">#</a> Form 表单</h2>
 <p>由输入框、选择器、单选框、多选框等控件组成，用以收集、校验、提交数据</p>
 <h3 id="典型表单" tabindex="-1"><a class="header-anchor" href="#典型表单" aria-hidden="true">#</a> 典型表单</h3>
-<p>包括各种表单项，比如输入框、选择器、开关、单选框、多选框等。</p>
+<br/>
+包括各种表单项，比如输入框、选择器、开关、单选框、多选框等。
 <demo customClass="" sourceCode="&lt;ba-form ref=&quot;form&quot; :model=&quot;form&quot; label-width=&quot;80px&quot;&gt;
   &lt;ba-form-item label=&quot;活动名称&quot;&gt;
     &lt;ba-input v-model=&quot;form.name&quot;&gt;&lt;/ba-input&gt;
-  &lt;/ba-form-item&gt;
-  &lt;ba-form-item label=&quot;活动区域&quot;&gt;
-    &lt;ba-select v-model=&quot;form.region&quot; placeholder=&quot;请选择活动区域&quot;&gt;
-      &lt;ba-option label=&quot;区域一&quot; value=&quot;shanghai&quot;&gt;&lt;/ba-option&gt;
-      &lt;ba-option label=&quot;区域二&quot; value=&quot;beijing&quot;&gt;&lt;/ba-option&gt;
-    &lt;/ba-select&gt;
   &lt;/ba-form-item&gt;
   &lt;ba-form-item label=&quot;即时配送&quot;&gt;
     &lt;ba-switch v-model=&quot;form.delivery&quot;&gt;&lt;/ba-switch&gt;
@@ -20,7 +15,6 @@
       &lt;ba-checkbox label=&quot;美食/餐厅线上活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;
       &lt;ba-checkbox label=&quot;地推活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;
       &lt;ba-checkbox label=&quot;线下主题活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;
-      &lt;ba-checkbox label=&quot;单纯品牌曝光&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;
     &lt;/ba-checkbox-group&gt;
   &lt;/ba-form-item&gt;
   &lt;ba-form-item label=&quot;特殊资源&quot;&gt;
@@ -70,12 +64,6 @@
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;ba-form-item label=&quot;活动名称&quot;&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;ba-input v-model=&quot;form.name&quot;&gt;&lt;/ba-input&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;/ba-form-item&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;ba-form-item label=&quot;活动区域&quot;&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">    &lt;ba-select v-model=&quot;form.region&quot; placeholder=&quot;请选择活动区域&quot;&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-option label=&quot;区域一&quot; value=&quot;shanghai&quot;&gt;&lt;/ba-option&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-option label=&quot;区域二&quot; value=&quot;beijing&quot;&gt;&lt;/ba-option&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">    &lt;/ba-select&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">  &lt;/ba-form-item&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;ba-form-item label=&quot;即时配送&quot;&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;ba-switch v-model=&quot;form.delivery&quot;&gt;&lt;/ba-switch&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;/ba-form-item&gt;</span></span>
@@ -84,7 +72,6 @@
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-checkbox label=&quot;美食/餐厅线上活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-checkbox label=&quot;地推活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-checkbox label=&quot;线下主题活动&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;ba-checkbox label=&quot;单纯品牌曝光&quot; name=&quot;type&quot;&gt;&lt;/ba-checkbox&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;/ba-checkbox-group&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;/ba-form-item&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">  &lt;ba-form-item label=&quot;特殊资源&quot;&gt;</span></span>
@@ -126,12 +113,15 @@
 <span class="line"><span style="color: var(--shiki-color-text)">&lt;/</span><span style="color: var(--shiki-token-string-expression)">script</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"></span></code></pre>
           </div>
-        </template></demo><h3 id="w3c-标准中有如下规定" tabindex="-1"><a class="header-anchor" href="#w3c-标准中有如下规定" aria-hidden="true">#</a> W3C 标准中有如下规定：</h3>
-<div class="language-html ext-html line-numbers-mode"><pre v-pre class="shiki" style="background-color: var(--shiki-color-background)"><code><span class="line"><span style="color: var(--shiki-color-text)">When there is only one single-line text input field in a form, </span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">the user agent should accept Enter in that field as a request to submit the form.</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">即：当一个 form 元素中只有一个输入框时，在该输入框中按下回车应提交该表单。</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">    如果希望阻止这一默认行为，可以在 &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-form</span><span style="color: var(--shiki-color-text)">&gt; 标签上添加 @submit.native.prevent。</span></span>
-<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="form-item-attributes" tabindex="-1"><a class="header-anchor" href="#form-item-attributes" aria-hidden="true">#</a> Form-item Attributes</h3>
+        </template></demo><br/>
+<h3 id="w3c-标准中有如下规定" tabindex="-1"><a class="header-anchor" href="#w3c-标准中有如下规定" aria-hidden="true">#</a> W3C 标准中有如下规定：</h3>
+<h4 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h4>
+<p>When there is only one single-line text input field in a form,
+the user agent should accept Enter in that field as a request to submit the form.
+即：当一个 form 元素中只有一个输入框时，在该输入框中按下回车应提交该表单。
+如果希望阻止这一默认行为，可以在 <code>&lt;ba-form&gt;</code> 标签上添加 <code>@submit.native.prevent</code>。</p>
+<br/>
+<h3 id="form-item-attributes" tabindex="-1"><a class="header-anchor" href="#form-item-attributes" aria-hidden="true">#</a> Form-item Attributes</h3>
 <table>
 <thead>
 <tr>
@@ -188,8 +178,6 @@ const _hoisted_2 = /*#__PURE__*/_createTextVNode("取消")
 function render(_ctx, _cache) {
   const _component_ba_input = _resolveComponent("ba-input")
   const _component_ba_form_item = _resolveComponent("ba-form-item")
-  const _component_ba_option = _resolveComponent("ba-option")
-  const _component_ba_select = _resolveComponent("ba-select")
   const _component_ba_switch = _resolveComponent("ba-switch")
   const _component_ba_checkbox = _resolveComponent("ba-checkbox")
   const _component_ba_checkbox_group = _resolveComponent("ba-checkbox-group")
@@ -213,33 +201,11 @@ function render(_ctx, _cache) {
         ]),
         _: 1
       }),
-      _createVNode(_component_ba_form_item, { label: "活动区域" }, {
-        default: _withCtx(() => [
-          _createVNode(_component_ba_select, {
-            modelValue: _ctx.form.region,
-            "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ((_ctx.form.region) = $event)),
-            placeholder: "请选择活动区域"
-          }, {
-            default: _withCtx(() => [
-              _createVNode(_component_ba_option, {
-                label: "区域一",
-                value: "shanghai"
-              }),
-              _createVNode(_component_ba_option, {
-                label: "区域二",
-                value: "beijing"
-              })
-            ]),
-            _: 1
-          }, 8, ["modelValue"])
-        ]),
-        _: 1
-      }),
       _createVNode(_component_ba_form_item, { label: "即时配送" }, {
         default: _withCtx(() => [
           _createVNode(_component_ba_switch, {
             modelValue: _ctx.form.delivery,
-            "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => ((_ctx.form.delivery) = $event))
+            "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ((_ctx.form.delivery) = $event))
           }, null, 8, ["modelValue"])
         ]),
         _: 1
@@ -248,7 +214,7 @@ function render(_ctx, _cache) {
         default: _withCtx(() => [
           _createVNode(_component_ba_checkbox_group, {
             modelValue: _ctx.form.type,
-            "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => ((_ctx.form.type) = $event))
+            "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => ((_ctx.form.type) = $event))
           }, {
             default: _withCtx(() => [
               _createVNode(_component_ba_checkbox, {
@@ -262,10 +228,6 @@ function render(_ctx, _cache) {
               _createVNode(_component_ba_checkbox, {
                 label: "线下主题活动",
                 name: "type"
-              }),
-              _createVNode(_component_ba_checkbox, {
-                label: "单纯品牌曝光",
-                name: "type"
               })
             ]),
             _: 1
@@ -277,7 +239,7 @@ function render(_ctx, _cache) {
         default: _withCtx(() => [
           _createVNode(_component_ba_radio_group, {
             modelValue: _ctx.form.resource,
-            "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => ((_ctx.form.resource) = $event))
+            "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => ((_ctx.form.resource) = $event))
           }, {
             default: _withCtx(() => [
               _createVNode(_component_ba_radio, { label: "线上品牌商赞助" }),
@@ -293,7 +255,7 @@ function render(_ctx, _cache) {
           _createVNode(_component_ba_input, {
             type: "textarea",
             modelValue: _ctx.form.desc,
-            "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => ((_ctx.form.desc) = $event))
+            "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => ((_ctx.form.desc) = $event))
           }, null, 8, ["modelValue"])
         ]),
         _: 1

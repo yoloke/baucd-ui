@@ -1,0 +1,15 @@
+var k=Object.defineProperty;var b=Object.getOwnPropertySymbols;var E=Object.prototype.hasOwnProperty,x=Object.prototype.propertyIsEnumerable;var m=(a,n,c)=>n in a?k(a,n,{enumerable:!0,configurable:!0,writable:!0,value:c}):a[n]=c,F=(a,n)=>{for(var c in n||(n={}))E.call(n,c)&&m(a,c,n[c]);if(b)for(var c of b(n))x.call(n,c)&&m(a,c,n[c]);return a};import{_ as v,r as s,o as C,c as f,d as t,w as u,F as g,a as o,b as e,V as B}from"./app.9661c574.js";const y={name:"component-doc",components:{"render-demo-0":function(){const{resolveComponent:a,createVNode:n,Fragment:c,openBlock:r,createElementBlock:l}=B;function d(p,_){const i=a("ba-icon");return r(),l(c,null,[n(i,{icon:"check-circle"}),n(i,{icon:"camera"}),n(i,{icon:"github"}),n(i,{icon:"headphones"}),n(i,{icon:"tool"}),n(i,{icon:"thumbs-up"})],64)}return F({render:d},{})}()}},V=o("h2",{id:"icon-\u56FE\u6807",tabindex:"-1"},[o("a",{class:"header-anchor",href:"#icon-\u56FE\u6807","aria-hidden":"true"},"#"),e(" Icon \u56FE\u6807")],-1),N=o("p",null,"\u63D0\u4F9B\u4E86\u4E00\u5957\u5E38\u7528\u7684\u56FE\u6807\u96C6\u5408\u3002",-1),D=o("h3",{id:"\u4F7F\u7528\u65B9\u6CD5",tabindex:"-1"},[o("a",{class:"header-anchor",href:"#\u4F7F\u7528\u65B9\u6CD5","aria-hidden":"true"},"#"),e(" \u4F7F\u7528\u65B9\u6CD5")],-1),$=o("div",null,[e("\u4F7F\u7528"),o("code",null,"icon"),e("\u5C5E\u6027\u6765\u5B9A\u4E49\u56FE\u6807\u7684\u6837\u5F0F\u3002")],-1),I=o("div",{class:"language-vue"},[o("pre",{class:"shiki",style:{"background-color":"var(--shiki-color-background)"}},[o("code",null,[o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="check-circle"></ba-icon>')]),e(`
+`),o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="camera"></ba-icon>')]),e(`
+`),o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="github"></ba-icon>')]),e(`
+`),o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="headphones"></ba-icon>')]),e(`
+`),o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="tool"></ba-icon>')]),e(`
+`),o("span",{class:"line"},[o("span",{style:{color:"var(--shiki-color-text)"}},'  <ba-icon icon="thumbs-up"></ba-icon>')]),e(`
+`),o("span",{class:"line"}),e(`
+`),o("span",{class:"line"})])])],-1),w=o("h3",{id:"\u56FE\u6807\u96C6\u5408",tabindex:"-1"},[o("a",{class:"header-anchor",href:"#\u56FE\u6807\u96C6\u5408","aria-hidden":"true"},"#"),e(" \u56FE\u6807\u96C6\u5408")],-1),A=o("br",null,null,-1);function T(a,n,c,r,l,d){const h=s("render-demo-0"),p=s("demo"),_=s("icon-list");return C(),f(g,null,[V,N,D,t(p,{customClass:"",sourceCode:`  <ba-icon icon="check-circle"></ba-icon>
+  <ba-icon icon="camera"></ba-icon>
+  <ba-icon icon="github"></ba-icon>
+  <ba-icon icon="headphones"></ba-icon>
+  <ba-icon icon="tool"></ba-icon>
+  <ba-icon icon="thumbs-up"></ba-icon>
+
+`},{description:u(()=>[$]),highlight:u(()=>[I]),default:u(()=>[t(h)]),_:1}),w,A,t(_)],64)}var z=v(y,[["render",T],["__file","Icon.html.vue"]]);export{z as default};

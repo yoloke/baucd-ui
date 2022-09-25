@@ -2,10 +2,10 @@ module.exports = [
   {
     text: 'basic',
     collapsable: true,
-    children: [{
-      text: 'Button 按钮',
-      link: '/components/pages/Button',
-    }]
+    children: [
+      { text: 'Button 按钮', link: '/components/pages/Button' },
+      { text: 'Icon 图标', link: '/components/pages/Icon' }
+    ]
   },
   {
     text: 'form',

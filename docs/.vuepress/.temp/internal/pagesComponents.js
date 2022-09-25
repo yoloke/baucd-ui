@@ -11,6 +11,8 @@ export const pagesComponents = {
   "v-0968f48b": defineAsyncComponent(() => import(/* webpackChunkName: "v-0968f48b" */"C:/Users/张996/Desktop/组件库项目/组件库文档/docs/.vuepress/.temp/pages/components/pages/Checkbox.html.vue")),
   // path: /components/pages/Form.html
   "v-1e4f8eaa": defineAsyncComponent(() => import(/* webpackChunkName: "v-1e4f8eaa" */"C:/Users/张996/Desktop/组件库项目/组件库文档/docs/.vuepress/.temp/pages/components/pages/Form.html.vue")),
+  // path: /components/pages/Icon.html
+  "v-5f90e815": defineAsyncComponent(() => import(/* webpackChunkName: "v-5f90e815" */"C:/Users/张996/Desktop/组件库项目/组件库文档/docs/.vuepress/.temp/pages/components/pages/Icon.html.vue")),
   // path: /components/pages/Input.html
   "v-3fe639da": defineAsyncComponent(() => import(/* webpackChunkName: "v-3fe639da" */"C:/Users/张996/Desktop/组件库项目/组件库文档/docs/.vuepress/.temp/pages/components/pages/Input.html.vue")),
   // path: /components/pages/Pagination.html
