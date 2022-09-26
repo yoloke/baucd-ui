@@ -3,6 +3,7 @@
 // 统一导出
 // 导出颜色选择器组件
 import Button from './Button'
+import ButtonGroup from './ButtonGroup'
 import Icon from './Icon'
 import IconList from './IconList'
 import Dialog from './Dialog'
@@ -23,6 +24,7 @@ import './fonts/style.css'
 
 const components = [
     Button,
+    ButtonGroup,
     Icon,
     IconList,
     Dialog,

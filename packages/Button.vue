@@ -8,15 +8,22 @@
         'is-round': round,
         'is-circle': circle,
         'is-disabled': disabled,
+        'loading':loading
       },
     ]"
     @click="handleClick"
     :disabled="disabled"
   >
-    <i v-if="icon" :class="`ba-icon-${icon}`"></i>
-    <!-- 如果没传入文本插槽，则不显示span内容 -->
-    <!-- 传了内容就有默认插槽 -->
-    <span v-if="$slots.default"><slot></slot></span>
+    <i
+      v-if="icon || loading"
+      :class="[
+        `ba-icon-${icon}`,
+        `ba-icon-${loading}`,
+        { 'icon-rigeht': right, 'icon-loading': loading },
+      ]"
+    ></i>
+    <!-- 如果没传入文本插槽，则不显示span内容  传了内容就有默认插槽 -->
+    <span v-if="$slots.default" class="content"><slot></slot></span>
   </button>
 </template>
 
@@ -56,10 +63,14 @@ export default {
       type: Boolean,
       default: false,
     },
-    //按钮是否加载
-    loading: {
+    //字体图标是否在右边
+    right: {
       type: Boolean,
       default: false,
+    },
+    loading: {
+      type: String,
+      default: "",
     },
   },
   //声明click为自定义事件
@@ -73,34 +84,71 @@ export default {
 </script>
 <style lang="scss" scoped>
 .ba-button {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1;
+  height: 32px;
   white-space: nowrap;
-  margin-bottom: 20px;
-  margin-left: 10px;
   cursor: pointer;
-  background: #ffffff;
-  border: 1px solid #dcdfe6;
   color: #606266;
-  -webkit-appearance: none;
   text-align: center;
   box-sizing: border-box;
   outline: none;
   transition: 0.1s;
   font-weight: 500;
-  //禁止元素的文字被选中
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  padding: 10px 18px;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #dcdfe6;
+  border-color: #dcdfe6;
+  padding: 8px 15px;
   font-size: 14px;
   border-radius: 4px;
+  &.is-disabled {
+    opacity: 0.6;
+    cursor: no-drop;
+    &:hover,
+    &:focus {
+      color: none;
+      border-color: none;
+      background-color: none;
+    }
+  }
+  &.is-circle {
+    border-radius: 50%;
+    padding: 8px;
+  }
+  &.is-round {
+    border-radius: 20px;
+    padding: 10px 18px;
+  }
+  + .ba-button {
+    margin-left: 12px;
+  }
+  .icon-rigeht {
+    order: 2;
+    margin-left: 6px;
+    + .content {
+      order: 1;
+      margin-left: 0px;
+    }
+  }
+  &.loading{
+    opacity: 0.6;
+    cursor:default;
+  }
+  .icon-loading {
+    opacity: 0.6;
+    animation: example 1s infinite linear;
+  }
   &:hover,
-  &:hover {
+  &:focus {
     color: #409eff;
     border-color: #c6e2ff;
     background-color: #ecf5ff;
+    outline: none;
   }
 }
 .ba-button-primary {
@@ -109,9 +157,10 @@ export default {
   border-color: #409eff;
   &:hover,
   &:focus {
-    background: #66b1ff;
-    background-color: #66b1ff;
-    color: #fff;
+    color: #ffffff;
+    border-color: #79bbff;
+    background-color: #79bbff;
+    outline: none;
   }
 }
 .ba-button-success {
@@ -120,9 +169,10 @@ export default {
   border-color: #67c23a;
   &:hover,
   &:focus {
-    background: #85ce61;
-    background-color: #85ce61;
-    color: #fff;
+    color: #ffffff;
+    border-color: #95d475;
+    background-color: #95d475;
+    outline: none;
   }
 }
 .ba-button-info {
@@ -131,9 +181,10 @@ export default {
   border-color: #909399;
   &:hover,
   &:focus {
-    background: #a6a9ad;
-    background-color: #a6a9ad;
-    color: #fff;
+    color: #ffffff;
+    border-color: #b1b3b8;
+    background-color: #b1b3b8;
+    outline: none;
   }
 }
 .ba-button-warning {
@@ -142,9 +193,10 @@ export default {
   border-color: #e6a23c;
   &:hover,
   &:focus {
-    background: #ebb563;
-    background-color: #ebb563;
-    color: #fff;
+    color: #ffffff;
+    border-color: #eebe77;
+    background-color: #eebe77;
+    outline: none;
   }
 }
 .ba-button-danger {
@@ -153,9 +205,10 @@ export default {
   border-color: #f56c6c;
   &:hover,
   &:focus {
-    background: #f78989;
-    background-color: #f78989;
-    color: #fff;
+    color: #ffffff;
+    border-color: #f89898;
+    background-color: #f89898;
+    outline: none;
   }
 }
 // 朴素按钮样式
@@ -217,35 +270,16 @@ export default {
     color: #fff;
   }
 }
-.ba-button.is-round {
-  border-radius: 20px;
-  padding: 10px 18px;
-}
-.ba-button.is-circle {
-  border-radius: 50%;
-  padding: 12px;
-}
-.ba-button.is-circle {
-  border-radius: 50%;
-  padding: 12px;
-}
 // 设置icon配套样式，使图标和文字之间有一定间隔
-@keyframes spin {
-  0% {
+.ba-button [class*="ba-icon-"] + span {
+  margin-left: 6px;
+}
+@keyframes example {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
-}
-.loading {
-  animation: spin 2s infinite linear;
-}
-.ba-button [class*="ba-icon-"] + span {
-  margin-left: 5px;
-}
-.ba-button.is-disabled {
-  opacity: 0.5;
-  cursor: no-drop;
 }
 </style>

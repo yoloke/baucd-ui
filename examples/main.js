@@ -5,5 +5,5 @@ import baucd from '../packages'
 
 const app = createApp(App)
 app.use(baucd)
-
+app.config.performance=true
 app.mount('#app')

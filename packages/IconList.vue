@@ -1,6 +1,6 @@
 <template>
   <div>
-     <ul class="demo-icon-list">
+    <ul class="demo-icon-list">
       <li class="icon-item" v-for="(item, index) in iconList" :key="index">
         <span class="demo-svg-icon">
           <ba-icon :icon="item"></ba-icon>
@@ -44,7 +44,7 @@ export default {
         "at-sign",
         "award",
         "bar-chart",
-        "bar-chart-",
+        "bar-chart-2",
         "battery",
         "battery-charging",
         "bell",
@@ -156,7 +156,7 @@ export default {
         "layout",
         "life-buoy",
         "link",
-        "link-",
+        "link-2",
         "linkedin",
         "list",
         "loader",
@@ -167,7 +167,7 @@ export default {
         "map",
         "map-pin",
         "maximize",
-        "maximize-",
+        "maximize-2",
         "meh",
         "menu",
         "message-circle",
@@ -175,7 +175,7 @@ export default {
         "mic",
         "mic-off",
         "minimize",
-        "minimize-",
+        "minimize-2",
         "minus",
         "minus-circle",
         "minus-square",
@@ -187,7 +187,7 @@ export default {
         "move",
         "music",
         "navigation",
-        "navigation-",
+        "navigation-2",
         "octagon",
         "package",
         "paperclip",
@@ -226,7 +226,7 @@ export default {
         "server",
         "settings",
         "share",
-        "share-",
+        "share-2",
         "shield",
         "shield-off",
         "shopping-bag",
@@ -258,7 +258,7 @@ export default {
         "toggle-right",
         "tool",
         "trash",
-        "trash-",
+        "trash-2",
         "trello",
         "trending-down",
         "trending-up",
@@ -313,10 +313,10 @@ export default {
   border-left: 1px solid #dcdfe6;
   border-radius: 4px;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   .icon-item {
     text-align: center;
-    color:#606266;
+    color: #606266;
     height: 90px;
     font-size: 13px;
     border-right: 1px solid #dcdfe6;
