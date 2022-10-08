@@ -114,12 +114,12 @@
 <span class="line"></span></code></pre>
           </div>
         </template></demo><br/>
-<h3 id="w3c-标准中有如下规定" tabindex="-1"><a class="header-anchor" href="#w3c-标准中有如下规定" aria-hidden="true">#</a> W3C 标准中有如下规定：</h3>
-<h4 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h4>
+<div class="custom-container tip"><p class="custom-container-title">W3C 标准中有如下规定:</p>
 <p>When there is only one single-line text input field in a form,
 the user agent should accept Enter in that field as a request to submit the form.
 即：当一个 form 元素中只有一个输入框时，在该输入框中按下回车应提交该表单。
 如果希望阻止这一默认行为，可以在 <code>&lt;ba-form&gt;</code> 标签上添加 <code>@submit.native.prevent</code>。</p>
+</div>
 <br/>
 <h3 id="form-item-attributes" tabindex="-1"><a class="header-anchor" href="#form-item-attributes" aria-hidden="true">#</a> Form-item Attributes</h3>
 <table>
@@ -197,18 +197,18 @@ function render(_ctx, _cache) {
           _createVNode(_component_ba_input, {
             modelValue: _ctx.form.name,
             "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ((_ctx.form.name) = $event))
-          }, null, 8, ["modelValue"])
+          }, null, 8 /* PROPS */, ["modelValue"])
         ]),
-        _: 1
+        _: 1 /* STABLE */
       }),
       _createVNode(_component_ba_form_item, { label: "即时配送" }, {
         default: _withCtx(() => [
           _createVNode(_component_ba_switch, {
             modelValue: _ctx.form.delivery,
             "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ((_ctx.form.delivery) = $event))
-          }, null, 8, ["modelValue"])
+          }, null, 8 /* PROPS */, ["modelValue"])
         ]),
-        _: 1
+        _: 1 /* STABLE */
       }),
       _createVNode(_component_ba_form_item, { label: "活动性质" }, {
         default: _withCtx(() => [
@@ -230,10 +230,10 @@ function render(_ctx, _cache) {
                 name: "type"
               })
             ]),
-            _: 1
-          }, 8, ["modelValue"])
+            _: 1 /* STABLE */
+          }, 8 /* PROPS */, ["modelValue"])
         ]),
-        _: 1
+        _: 1 /* STABLE */
       }),
       _createVNode(_component_ba_form_item, { label: "特殊资源" }, {
         default: _withCtx(() => [
@@ -245,10 +245,10 @@ function render(_ctx, _cache) {
               _createVNode(_component_ba_radio, { label: "线上品牌商赞助" }),
               _createVNode(_component_ba_radio, { label: "线下场地免费" })
             ]),
-            _: 1
-          }, 8, ["modelValue"])
+            _: 1 /* STABLE */
+          }, 8 /* PROPS */, ["modelValue"])
         ]),
-        _: 1
+        _: 1 /* STABLE */
       }),
       _createVNode(_component_ba_form_item, { label: "活动形式" }, {
         default: _withCtx(() => [
@@ -256,9 +256,9 @@ function render(_ctx, _cache) {
             type: "textarea",
             modelValue: _ctx.form.desc,
             "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => ((_ctx.form.desc) = $event))
-          }, null, 8, ["modelValue"])
+          }, null, 8 /* PROPS */, ["modelValue"])
         ]),
-        _: 1
+        _: 1 /* STABLE */
       }),
       _createVNode(_component_ba_form_item, null, {
         default: _withCtx(() => [
@@ -269,20 +269,20 @@ function render(_ctx, _cache) {
             default: _withCtx(() => [
               _hoisted_1
             ]),
-            _: 1
-          }, 8, ["onClick"]),
+            _: 1 /* STABLE */
+          }, 8 /* PROPS */, ["onClick"]),
           _createVNode(_component_ba_button, null, {
             default: _withCtx(() => [
               _hoisted_2
             ]),
-            _: 1
+            _: 1 /* STABLE */
           })
         ]),
-        _: 1
+        _: 1 /* STABLE */
       })
     ]),
-    _: 1
-  }, 8, ["model"]))
+    _: 1 /* STABLE */
+  }, 8 /* PROPS */, ["model"]))
 }
   
     const democomponentExport = {

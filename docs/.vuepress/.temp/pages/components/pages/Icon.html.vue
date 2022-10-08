@@ -23,7 +23,8 @@
 <span class="line"></span>
 <span class="line"></span></code></pre>
           </div>
-        </template></demo><h3 id="图标集合" tabindex="-1"><a class="header-anchor" href="#图标集合" aria-hidden="true">#</a> 图标集合</h3>
+        </template></demo><div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="shiki" style="background-color: var(--shiki-color-background)"><code><span class="line"><span style="color: var(--shiki-token-keyword)">const</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">aa</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">6565</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="图标集合" tabindex="-1"><a class="header-anchor" href="#图标集合" aria-hidden="true">#</a> 图标集合</h3>
 <br>
 <icon-list/>
 </template>
@@ -48,7 +49,7 @@ function render(_ctx, _cache) {
     _createVNode(_component_ba_icon, { icon: "headphones" }),
     _createVNode(_component_ba_icon, { icon: "tool" }),
     _createVNode(_component_ba_icon, { icon: "thumbs-up" })
-  ], 64))
+  ], 64 /* STABLE_FRAGMENT */))
 }
   
     const democomponentExport = {}

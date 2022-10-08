@@ -83,7 +83,7 @@ function render(_ctx, _cache) {
     total: 50,
     continues: 3,
     onGetPageNo: _ctx.getPageNo
-  }, null, 8, ["pageNo", "onGetPageNo"]))
+  }, null, 8 /* PROPS */, ["pageNo", "onGetPageNo"]))
 }
   
     const democomponentExport = {

@@ -2,7 +2,7 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
-  ["v-1020f180","/components/",{"title":"Hello Components"},["/components/index.html","/components/README.md"]],
+  ["v-1020f180","/components/",{"title":"Hello Componensssts"},["/components/index.html","/components/README.md"]],
   ["v-b959d088","/components/pages/Button.html",{"title":""},["/components/pages/Button","/components/pages/Button.md"]],
   ["v-0968f48b","/components/pages/Checkbox.html",{"title":""},["/components/pages/Checkbox","/components/pages/Checkbox.md"]],
   ["v-1e4f8eaa","/components/pages/Form.html",{"title":""},["/components/pages/Form","/components/pages/Form.md"]],

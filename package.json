@@ -8,7 +8,7 @@
     "vuepress-plugin-demoblock-plus": "^1.5.1"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
