@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1665503793000,
+    "contributors": [
+      {
+        "name": "Baucd",
+        "email": "2575735053@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "components/pages/Carousel.md"
 }
