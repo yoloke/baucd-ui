@@ -296,7 +296,7 @@ var require_baucd_ui_umd_min = __commonJS({
           var ut = dt;
           const pt = { key: 0, class: "ba-car-item" };
           function mt(e3, t3, a2, l2, n2, r2) {
-            return (0, o2.openBlock)(), (0, o2.createBlock)(o2.Transition, null, { default: (0, o2.withCtx)(() => [e3.selfIndex === e3.currentIndex ? ((0, o2.openBlock)(), (0, o2.createElementBlock)("div", pt, [(0, o2.renderSlot)(e3.$slots, "default", {}, void 0, true)])) : (0, o2.createCommentVNode)("", true)]), _: 3 });
+            return (0, o2.openBlock)(), (0, o2.createBlock)(o2.Transition, null, { default: (0, o2.withCtx)(() => [e3.selfIndex == e3.currentIndex ? ((0, o2.openBlock)(), (0, o2.createElementBlock)("div", pt, [(0, o2.renderSlot)(e3.$slots, "default", {}, void 0, true)])) : (0, o2.createCommentVNode)("", true)]), _: 3 });
           }
           var ft = { name: "BaCarItem", setup() {
             const e3 = (0, o2.getCurrentInstance)(), t3 = (0, o2.reactive)({ selfIndex: e3.vnode.key, currentIndex: e3.parent.ctx.currentIndex });
@@ -304,7 +304,7 @@ var require_baucd_ui_umd_min = __commonJS({
               t3.currentIndex = e4;
             }), __spreadValues({}, (0, o2.toRefs)(t3));
           } };
-          const ht = (0, s.Z)(ft, [["render", mt], ["__scopeId", "data-v-8b2859e4"]]);
+          const ht = (0, s.Z)(ft, [["render", mt], ["__scopeId", "data-v-1d2efea7"]]);
           var gt = ht;
           const vt = { class: "selector" };
           function bt(e3, t3, a2, l2, n2, r2) {

@@ -774,10 +774,10 @@
   "resolved" "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
   "version" "1.5.1"
 
-"baucd-ui@^0.2.22":
-  "integrity" "sha512-koN1Nxe8TquwlIs/N930QYcNJbcsFSrryWBCgqC3a9IUtJEro9KqB1Dl6ZrK5ZZ/vt/ebDPlG2/pKMTg6nUlIg=="
-  "resolved" "https://registry.npmjs.org/baucd-ui/-/baucd-ui-0.2.22.tgz"
-  "version" "0.2.22"
+"baucd-ui@^0.2.23":
+  "integrity" "sha512-ZmpJ9a9woZ3C35AJAT0OEcvgC7bjB4B6vRI1ZI3T3A2D6i2kP39s5qok6WVlZNkjsS9tR6+2917xVtzeM050Xw=="
+  "resolved" "https://registry.npmjs.org/baucd-ui/-/baucd-ui-0.2.23.tgz"
+  "version" "0.2.23"
   dependencies:
     "core-js" "^3.8.3"
     "element-plus" "^2.2.17"
