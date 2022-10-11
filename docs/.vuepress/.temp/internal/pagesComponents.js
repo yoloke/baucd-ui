@@ -7,6 +7,8 @@ export const pagesComponents = {
   "v-1020f180": defineAsyncComponent(() => import(/* webpackChunkName: "v-1020f180" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/index.html.vue")),
   // path: /components/pages/Button.html
   "v-b959d088": defineAsyncComponent(() => import(/* webpackChunkName: "v-b959d088" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Button.html.vue")),
+  // path: /components/pages/Carousel.html
+  "v-61c3a90e": defineAsyncComponent(() => import(/* webpackChunkName: "v-61c3a90e" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Carousel.html.vue")),
   // path: /components/pages/Checkbox.html
   "v-0968f48b": defineAsyncComponent(() => import(/* webpackChunkName: "v-0968f48b" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Checkbox.html.vue")),
   // path: /components/pages/Form.html

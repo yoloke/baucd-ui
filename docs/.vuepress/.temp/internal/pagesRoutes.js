@@ -4,6 +4,7 @@ const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-1020f180","/components/",{"title":"Hello Componensssts"},["/components/index.html","/components/README.md"]],
   ["v-b959d088","/components/pages/Button.html",{"title":""},["/components/pages/Button","/components/pages/Button.md"]],
+  ["v-61c3a90e","/components/pages/Carousel.html",{"title":""},["/components/pages/Carousel","/components/pages/Carousel.md"]],
   ["v-0968f48b","/components/pages/Checkbox.html",{"title":""},["/components/pages/Checkbox","/components/pages/Checkbox.md"]],
   ["v-1e4f8eaa","/components/pages/Form.html",{"title":""},["/components/pages/Form","/components/pages/Form.md"]],
   ["v-5f90e815","/components/pages/Icon.html",{"title":""},["/components/pages/Icon","/components/pages/Icon.md"]],

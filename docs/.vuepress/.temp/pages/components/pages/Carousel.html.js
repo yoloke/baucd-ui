@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-5f90e815",
-  "path": "/components/pages/Icon.html",
+  "key": "v-61c3a90e",
+  "path": "/components/pages/Carousel.html",
   "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1665225229000,
-    "contributors": [
-      {
-        "name": "Baucd",
-        "email": "2575735053@qq.com",
-        "commits": 2
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "components/pages/Icon.md"
+  "filePathRelative": "components/pages/Carousel.md"
 }
 
 if (import.meta.webpackHot) {

@@ -5,6 +5,8 @@ export const pagesData = {
   "v-1020f180": () => import(/* webpackChunkName: "v-1020f180" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/index.html.js").then(({ data }) => data),
   // path: /components/pages/Button.html
   "v-b959d088": () => import(/* webpackChunkName: "v-b959d088" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Button.html.js").then(({ data }) => data),
+  // path: /components/pages/Carousel.html
+  "v-61c3a90e": () => import(/* webpackChunkName: "v-61c3a90e" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Carousel.html.js").then(({ data }) => data),
   // path: /components/pages/Checkbox.html
   "v-0968f48b": () => import(/* webpackChunkName: "v-0968f48b" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Checkbox.html.js").then(({ data }) => data),
   // path: /components/pages/Form.html

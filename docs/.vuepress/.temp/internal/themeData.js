@@ -81,6 +81,10 @@ export const themeData = {
           {
             "text": "Pagination 分页",
             "link": "/components/pages/Pagination"
+          },
+          {
+            "text": "Carousel 走马灯",
+            "link": "/components/pages/Carousel"
           }
         ]
       }

@@ -13,9 +13,9 @@
   "version" "3.4.1"
 
 "@element-plus/icons-vue@^2.0.6":
-  "integrity" "sha512-okdrwiVeKBmW41Hkl0eMrXDjzJwhQMuKiBOu17rOszqM+LS/yBYpNQNV5Jvoh06Wc+89fMmb/uhzf8NZuDuUaQ=="
-  "resolved" "https://registry.npmjs.org/@element-plus/icons-vue/-/icons-vue-2.0.9.tgz"
-  "version" "2.0.9"
+  "integrity" "sha512-ygEZ1mwPjcPo/OulhzLE7mtDrQBWI8vZzEWSNB2W/RNCRjoQGwbaK4N8lV4rid7Ts4qvySU3njMN7YCiSlSaTQ=="
+  "resolved" "https://registry.npmjs.org/@element-plus/icons-vue/-/icons-vue-2.0.10.tgz"
+  "version" "2.0.10"
 
 "@floating-ui/core@^1.0.1":
   "integrity" "sha512-bO37brCPfteXQfFY0DyNDGB3+IMe4j150KFQcgJ5aBP295p9nBGeHEs/p0czrRbtlHq4Px/yoPXO/+dOCcF4uA=="
@@ -153,9 +153,9 @@
     "@types/lodash" "*"
 
 "@types/lodash@*", "@types/lodash@^4.14.182":
-  "integrity" "sha512-evMDG1bC4rgQg4ku9tKpuMh5iBNEwNa3tf9zRHdP1qlv+1WUg44xat4IxCE14gIpZRGUUWAx2VhItCZc25NfMA=="
-  "resolved" "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.185.tgz"
-  "version" "4.14.185"
+  "integrity" "sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw=="
+  "resolved" "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.186.tgz"
+  "version" "4.14.186"
 
 "@types/markdown-it@*", "@types/markdown-it@^12.2.3":
   "integrity" "sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ=="
@@ -526,13 +526,13 @@
     "vue-demi" "*"
 
 "@vueuse/core@^9.1.0":
-  "integrity" "sha512-/MZ6qpz6uSyaXrtoeBWQzAKRG3N7CvfVWvQxiM3ei3Xe5ydOjjtVbo7lGl9p8dECV93j7W8s63A8H0kFLpLyxg=="
-  "resolved" "https://registry.npmjs.org/@vueuse/core/-/core-9.2.0.tgz"
-  "version" "9.2.0"
+  "integrity" "sha512-64Rna8IQDWpdrJxgitDg7yv1yTp41ZmvV8zlLEylK4QQLWAhz1OFGZDPZ8bU4lwcGgbEJ2sGi2jrdNh4LttUSQ=="
+  "resolved" "https://registry.npmjs.org/@vueuse/core/-/core-9.3.0.tgz"
+  "version" "9.3.0"
   dependencies:
     "@types/web-bluetooth" "^0.0.15"
-    "@vueuse/metadata" "9.2.0"
-    "@vueuse/shared" "9.2.0"
+    "@vueuse/metadata" "9.3.0"
+    "@vueuse/shared" "9.3.0"
     "vue-demi" "*"
 
 "@vueuse/metadata@8.2.6":
@@ -540,10 +540,10 @@
   "resolved" "https://registry.npmjs.org/@vueuse/metadata/-/metadata-8.2.6.tgz"
   "version" "8.2.6"
 
-"@vueuse/metadata@9.2.0":
-  "integrity" "sha512-exN4KE6iquxDCdt72BgEhb3tlOpECtD61AUdXnUqBTIUCl70x1Ar/QXo3bYcvxmdMS2/peQyfeTzBjRTpvL5xw=="
-  "resolved" "https://registry.npmjs.org/@vueuse/metadata/-/metadata-9.2.0.tgz"
-  "version" "9.2.0"
+"@vueuse/metadata@9.3.0":
+  "integrity" "sha512-GnnfjbzIPJIh9ngL9s9oGU1+Hx/h5/KFqTfJykzh/1xjaHkedV9g0MASpdmPZIP+ynNhKAcEfA6g5i8KXwtoMA=="
+  "resolved" "https://registry.npmjs.org/@vueuse/metadata/-/metadata-9.3.0.tgz"
+  "version" "9.3.0"
 
 "@vueuse/shared@8.2.6":
   "integrity" "sha512-J/W4CMfdL8TahELuSOgtfVO4eQXTjhigp7dVWIBsLUVFCeY9d49gvHUcQN3y5xYLZ6iNP57TjTQjMMT/zhklkw=="
@@ -552,10 +552,10 @@
   dependencies:
     "vue-demi" "*"
 
-"@vueuse/shared@9.2.0":
-  "integrity" "sha512-NnRp/noSWuXW0dKhZK5D0YLrDi0nmZ18UeEgwXQq7Ul5TTP93lcNnKjrHtd68j2xFB/l59yPGFlCryL692bnrA=="
-  "resolved" "https://registry.npmjs.org/@vueuse/shared/-/shared-9.2.0.tgz"
-  "version" "9.2.0"
+"@vueuse/shared@9.3.0":
+  "integrity" "sha512-caGUWLY0DpPC6l31KxeUy6vPVNA0yKxx81jFYLoMpyP6cF84FG5Dkf69DfSUqL57wX8JcUkJDMnQaQIZPWFEQQ=="
+  "resolved" "https://registry.npmjs.org/@vueuse/shared/-/shared-9.3.0.tgz"
+  "version" "9.3.0"
   dependencies:
     "vue-demi" "*"
 
@@ -774,10 +774,10 @@
   "resolved" "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
   "version" "1.5.1"
 
-"baucd-ui@^0.2.13":
-  "integrity" "sha512-adQcDM/n1/tl8MSpfhRSXxspegBpldPxhh61kgEdJD0Kpgcz7L9K7/18In/dqkWv6hTf8I3KlJLo/v0zYckqLQ=="
-  "resolved" "https://registry.npmjs.org/baucd-ui/-/baucd-ui-0.2.13.tgz"
-  "version" "0.2.13"
+"baucd-ui@^0.2.21":
+  "integrity" "sha512-P+JF+4YteAC6WMaQtivaBHZ39oQkBbTPRpe2QOhNai7LYiL0JATemJtIjlc+R6ctPi1xFtIwcFiIW5N6rFeiVw=="
+  "resolved" "https://registry.npmjs.org/baucd-ui/-/baucd-ui-0.2.21.tgz"
+  "version" "0.2.21"
   dependencies:
     "core-js" "^3.8.3"
     "element-plus" "^2.2.17"
@@ -906,9 +906,9 @@
   "version" "1.6.0"
 
 "core-js@^3.8.3":
-  "integrity" "sha512-l6CwCLq7XgITOQGhv1dIUmwCFoqFjyQ6zQHUCQlS0xKmb9d6OHIg8jDiEoswhaettT21BSF5qKr6kbvE+aKwxw=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.22.1.tgz"
-  "version" "3.22.1"
+  "integrity" "sha512-nbm6eZSjm+ZuBQxCUPQKQCoUEfFOXjUZ8dTTyikyKaWrTYmAVbykQfwsKE5dBK88u3QCkCrzsx/PPlKfhsvgpw=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.25.5.tgz"
+  "version" "3.25.5"
 
 "cross-spawn@^7.0.3":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="

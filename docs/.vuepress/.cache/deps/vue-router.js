@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-HER3UQA3.js";
+} from "./chunk-JLMJNF2D.js";
 import {
   computed,
   defineComponent,
@@ -19,13 +19,13 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-PVB3FAIT.js";
-import "./chunk-H6X6R6QU.js";
+} from "./chunk-LEAP7STF.js";
+import "./chunk-KNISUAPR.js";
 import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-2LB3RAV7.js";
+} from "./chunk-C36HVA5E.js";
 
 // dep:vue-router
 init_define_DEMOBLOCK_LOCALES();

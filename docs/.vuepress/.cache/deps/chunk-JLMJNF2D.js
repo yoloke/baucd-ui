@@ -2,7 +2,7 @@ import {
   init_define_DEMOBLOCK_LOCALES,
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS
-} from "./chunk-2LB3RAV7.js";
+} from "./chunk-C36HVA5E.js";
 
 // node_modules/@vue/devtools-api/lib/esm/time.js
 init_define_DEMOBLOCK_LOCALES();
@@ -223,4 +223,4 @@ export {
   now,
   setupDevtoolsPlugin
 };
-//# sourceMappingURL=chunk-HER3UQA3.js.map
+//# sourceMappingURL=chunk-JLMJNF2D.js.map
