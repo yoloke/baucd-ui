@@ -100,7 +100,8 @@ export default {
   user-select: none;
   vertical-align: middle;
   -webkit-appearance: none;
-  background-color: #ffffff;
+  // background-color: #ffffff;
+  background-color:var(--ba-button-color);
   border: 1px solid #dcdfe6;
   border-color: #dcdfe6;
   padding: 8px 15px;

@@ -2,43 +2,50 @@
 // 整个包的入口
 // 统一导出
 // 导出颜色选择器组件
-import Button from './Button'
-import ButtonGroup from './ButtonGroup'
+import Button from "./button/Button";
+import ButtonGroup from "./button/ButtonGroup";
 import Icon from './Icon'
 import IconList from './IconList'
 import Dialog from './Dialog'
 import Input from './Input'
-import Checkbox from './Checkbox'
-import Radio from './Radio'
-import RadioGroup from './RadioGroup'
+import Radio from './radio/Radio'
+import RadioGroup from './radio/RadioGroup'
 import Switch from './Switch'
-import CheckboxGroup from './CheckboxGroup'
+import Checkbox from "./checkbox/Checkbox";
+import CheckboxGroup from "./checkbox/CheckboxGroup";
 import Form from './Form'
 import FormItem from './FormItem'
 import Pagination from './Pagination'
-
+import Carousel from "./carousel/Carousel";
+import CarItem from "./carousel/Item";
 import Selector from './Selector.vue'
+import Message from "./message/Message.vue";
+import Scroll from "./scroll/Scroll.vue"
 
 
 import './fonts/style.css'
 
 const components = [
-    Button,
-    ButtonGroup,
-    Icon,
-    IconList,
-    Dialog,
-    Input,
-    Checkbox,
-    Radio,
-    RadioGroup,
-    Switch,
-    CheckboxGroup,
-    Form,
-    FormItem,
-    Pagination,
-    Selector
-]
+  Button,
+  ButtonGroup,
+  Icon,
+  IconList,
+  Dialog,
+  Input,
+  Checkbox,
+  Radio,
+  RadioGroup,
+  Switch,
+  CheckboxGroup,
+  Form,
+  FormItem,
+  Pagination,
+  Selector,
+  Carousel,
+  CarItem,
+  Message,
+  Scroll,
+];
 // 定义install方法
 const install = function (app) {
     //注册所有的组件
@@ -50,6 +57,7 @@ const install = function (app) {
 if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue)
 }
+
 // 导出install方法
 export default {
     install

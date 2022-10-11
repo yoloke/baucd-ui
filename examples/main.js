@@ -1,9 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
 
-import baucd from '../packages'
+import App from "./App.vue";
 
-const app = createApp(App)
-app.use(baucd)
-app.config.performance=true
-app.mount('#app')
+import baucd from "../packages";
+
+const app = createApp(App);
+app.config.performance = true;
+
+
+app.use(baucd).mount("#app");
