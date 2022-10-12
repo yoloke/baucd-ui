@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o,a as t,b as n}from"./app.79405b97.js";const a={},c={id:"hello-componensssts",tabindex:"-1"},_=t("a",{class:"header-anchor",href:"#hello-componensssts","aria-hidden":"true"},"#",-1),r=n(" Hello Componensssts"),d=[_,r];function h(i,l){return s(),o("h1",c,d)}var f=e(a,[["render",h],["__file","index.html.vue"]]);export{f as default};

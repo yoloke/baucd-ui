@@ -1,0 +1,1 @@
+const e={key:"v-61c3a90e",path:"/components/pages/Carousel.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:166555628e4,contributors:[{name:"Baucd",email:"2575735053@qq.com",commits:1}]},filePathRelative:"components/pages/Carousel.md"};export{e as data};
