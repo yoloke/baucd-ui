@@ -20,7 +20,6 @@ import Carousel from "./carousel/Carousel";
 import CarItem from "./carousel/Item";
 import Selector from './Selector.vue'
 import Message from "./message/Message.vue";
-import Scroll from "./scroll/Scroll.vue"
 
 
 import './fonts/style.css'
@@ -44,7 +43,6 @@ const components = [
   Carousel,
   CarItem,
   Message,
-  Scroll,
 ];
 // 定义install方法
 const install = function (app) {

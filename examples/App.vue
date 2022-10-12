@@ -1,8 +1,10 @@
 <template>
   <div class="container">
-    <ba-scroll :height="250">
-      <div class="demo-scroll-item" v-for="item in 10">{{item}}</div>
-    </ba-scroll>
+    <ba-carousel :autoplay="true" :duration="3000" :initial="0" :hasDot="true" :hasDirector="true">
+      <ba-car-item v-for="(item, index) in 4" :index="index" :key="index" name="ssss">
+        {{ item }} 默认 Hover 指示器触发
+      </ba-car-item>
+    </ba-carousel>
   </div>
 </template>
 
@@ -21,8 +23,16 @@ export default {
   components: { Radio }
 };
 </script>
-<style lang="scss" spode>
+<style lang="scss">
 .container {
-  margin: 20px;
+  float: left;
+  width: 300px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  margin-right: 20px;
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
 }
 </style>

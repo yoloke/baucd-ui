@@ -1,6 +1,6 @@
 <template>
   <transition>
-    <div class="ba-car-item" v-show="selfIndex === currentIndex">
+    <div class="ba-car-item" v-show="selfIndex === currentIndex" ref="root">
       <slot></slot>
     </div>
   </transition>
@@ -12,21 +12,28 @@ import {
   getCurrentInstance,
   reactive,
   toRefs,
-  watch
+  watch,
 } from 'vue';
 
 export default {
   name: 'BaCarItem',
-  setup() {
-    const instance = getCurrentInstance();
+  props: {
+    index: {
+      default: ""
+    }
+  },
+  setup(props) {
+    const { proxy } = getCurrentInstance();
 
+    console.log(proxy);
     const state = reactive({
-      selfIndex: instance.vnode.key,
-      currentIndex: instance.parent.ctx.currentIndex
+      // selfIndex: instance.vnode.key,
+      selfIndex: props.index,
+      currentIndex: proxy.$parent.currentIndex
     });
 
     watch(() => {
-      return instance.parent.ctx.currentIndex;
+      return proxy.$parent.currentIndex
     }, (value) => {
       state.currentIndex = value;
     })
@@ -46,9 +53,11 @@ export default {
   width: 100%;
   height: 100%;
   background-color: #d3dce6;
-    &:nth-of-type(2n+1) {
-      background-color: #99a9bf;
-    }
+
+  &:nth-of-type(2n+1) {
+    background-color: #99a9bf;
+  }
+
   img {
     width: 100%;
   }

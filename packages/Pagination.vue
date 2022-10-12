@@ -126,7 +126,6 @@ export default {
 <style scoped lang="scss">
 .ba-pagination {
   display: flex;
-  justify-content: center;
   .ba-button {
     font-size: 22px;
     background-color: rgba(255, 255, 255, 0);
@@ -144,6 +143,7 @@ export default {
     }
   }
   ul {
+    padding-left: 0;
     li {
       position: relative;
       float: left;

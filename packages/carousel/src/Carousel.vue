@@ -5,7 +5,7 @@
         @dotClick="dotClick" :trigger="trigger" />
       <CarDirector v-if="hasDirector" dir="prev" @dirClick="dirClick" />
       <CarDirector v-if="hasDirector" dir="next" @dirClick="dirClick" />
-      <slot></slot>
+      <slot ></slot>
     </div>
   </div>
 </template>
@@ -54,7 +54,8 @@ export default {
     trigger: {
       type: String,
       default: "hover"
-    }
+    },
+    
   },
   setup(props) {
     const instance = getCurrentInstance();
@@ -65,6 +66,7 @@ export default {
     });
 
     let t = null;
+    
 
     const autoPlay = () => {
       if (props.autoplay) {
