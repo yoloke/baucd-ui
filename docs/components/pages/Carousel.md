@@ -17,7 +17,7 @@
       :hasDot="true"
       :hasDirector="true"
     >
-      <ba-car-item v-for="(item, index) in 4" :key="index">
+      <ba-car-item v-for="(item, index) in 4" :key="index" :index="index">
         {{ item }} 默认 Hover 指示器触发
       </ba-car-item>
     </ba-carousel>
@@ -31,7 +31,7 @@
       :hasDirector="true"
       trigger="click"
     >
-      <ba-car-item v-for="(item, index) in 4" :key="index">
+      <ba-car-item v-for="(item, index) in 4" :key="index" :index="index">
         {{ item }} Click 指示器触发
       </ba-car-item>
     </ba-carousel>
@@ -67,7 +67,7 @@
       :hasDot="false"
       :hasDirector="false"
     >
-      <ba-car-item v-for="(item, index) in 4" :key="index">
+      <ba-car-item v-for="(item, index) in 4" :key="index" :index="index">
         {{ item }} 
       </ba-car-item>
     </ba-carousel>
@@ -100,7 +100,7 @@
       :autoplay="true"
       :initial="0"
     >
-      <ba-car-item v-for="(item, index) in 4" :key="index">
+      <ba-car-item v-for="(item, index) in 4" :key="index" :index="index">
         {{ item }} 
       </ba-car-item>
     </ba-carousel>
