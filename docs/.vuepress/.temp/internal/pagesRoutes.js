@@ -12,8 +12,8 @@ const routeItems = [
   ["v-60bed458","/components/pages/Pagination.html",{"title":""},["/components/pages/Pagination","/components/pages/Pagination.md"]],
   ["v-25bf176e","/components/pages/Radio.html",{"title":""},["/components/pages/Radio","/components/pages/Radio.md"]],
   ["v-e9c58e0c","/components/pages/Switch.html",{"title":""},["/components/pages/Switch","/components/pages/Switch.md"]],
-  ["v-5851f53c","/document/tips/",{"title":"Hello Tips"},["/document/tips/index.html","/document/tips/README.md"]],
   ["v-7d85779a","/document/introduction/",{"title":"Hello Introduction"},["/document/introduction/index.html","/document/introduction/README.md"]],
+  ["v-5851f53c","/document/tips/",{"title":"Hello Tips"},["/document/tips/index.html","/document/tips/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 

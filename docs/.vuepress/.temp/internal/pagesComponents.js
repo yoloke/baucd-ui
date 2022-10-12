@@ -23,10 +23,10 @@ export const pagesComponents = {
   "v-25bf176e": defineAsyncComponent(() => import(/* webpackChunkName: "v-25bf176e" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Radio.html.vue")),
   // path: /components/pages/Switch.html
   "v-e9c58e0c": defineAsyncComponent(() => import(/* webpackChunkName: "v-e9c58e0c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Switch.html.vue")),
-  // path: /document/tips/
-  "v-5851f53c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/tips/index.html.vue")),
   // path: /document/introduction/
   "v-7d85779a": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d85779a" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/introduction/index.html.vue")),
+  // path: /document/tips/
+  "v-5851f53c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/tips/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/404.html.vue")),
 }

@@ -11,7 +11,7 @@
       :hasDot=&quot;true&quot;
       :hasDirector=&quot;true&quot;
     &gt;
-      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot;&gt;
+      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot; :index=&quot;index&quot;&gt;
         {{ item }} 默认 Hover 指示器触发
       &lt;/ba-car-item&gt;
     &lt;/ba-carousel&gt;
@@ -25,7 +25,7 @@
       :hasDirector=&quot;true&quot;
       trigger=&quot;click&quot;
     &gt;
-      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot;&gt;
+      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot; :index=&quot;index&quot;&gt;
         {{ item }} Click 指示器触发
       &lt;/ba-car-item&gt;
     &lt;/ba-carousel&gt;
@@ -60,7 +60,7 @@
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">hasDot</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">hasDirector</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">index</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">        {{ item }} 默认 Hover 指示器触发</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-carousel</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -74,7 +74,7 @@
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">hasDirector</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-function)">trigger</span><span style="color: var(--shiki-color-text)">=</span><span style="color: var(--shiki-token-string-expression)">&quot;click&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">index</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">        {{ item }} Click 指示器触发</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-carousel</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -106,7 +106,7 @@
       :hasDot=&quot;false&quot;
       :hasDirector=&quot;false&quot;
     &gt;
-      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot;&gt;
+      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot; :index=&quot;index&quot;&gt;
         {{ item }} 
       &lt;/ba-car-item&gt;
     &lt;/ba-carousel&gt;
@@ -138,7 +138,7 @@
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">hasDot</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">false</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">hasDirector</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">false</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">index</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">        {{ item }} </span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-carousel</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -166,7 +166,7 @@
       :autoplay=&quot;true&quot;
       :initial=&quot;0&quot;
     &gt;
-      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot;&gt;
+      &lt;ba-car-item v-for=&quot;(item, index) in 4&quot; :key=&quot;index&quot; :index=&quot;index&quot;&gt;
         {{ item }} 
       &lt;/ba-car-item&gt;
     &lt;/ba-carousel&gt;
@@ -196,7 +196,7 @@
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">autoplay</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">true</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">initial</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-token-constant)">0</span><span style="color: var(--shiki-color-text)">&quot;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &gt;</span></span>
-<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
+<span class="line"><span style="color: var(--shiki-color-text)">      &lt;</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-function)">v-for</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">(item</span><span style="color: var(--shiki-token-punctuation)">,</span><span style="color: var(--shiki-color-text)"> index) </span><span style="color: var(--shiki-token-keyword)">in</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-constant)">4</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">key</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)"> </span><span style="color: var(--shiki-token-keyword)">:</span><span style="color: var(--shiki-token-function)">index</span><span style="color: var(--shiki-token-keyword)">=</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">index</span><span style="color: var(--shiki-color-text)">&quot;</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">        {{ item }} </span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">      &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-car-item</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
 <span class="line"><span style="color: var(--shiki-color-text)">    &lt;/</span><span style="color: var(--shiki-token-string-expression)">ba-carousel</span><span style="color: var(--shiki-color-text)">&gt;</span></span>
@@ -288,12 +288,15 @@ function render(_ctx, _cache) {
       }, {
         default: _withCtx(() => [
           (_openBlock(), _createElementBlock(_Fragment, null, _renderList(4, (item, index) => {
-            return _createVNode(_component_ba_car_item, { key: index }, {
+            return _createVNode(_component_ba_car_item, {
+              key: index,
+              index: index
+            }, {
               default: _withCtx(() => [
                 _createTextVNode(_toDisplayString(item) + " 默认 Hover 指示器触发 ", 1 /* TEXT */)
               ]),
               _: 2 /* DYNAMIC */
-            }, 1024 /* DYNAMIC_SLOTS */)
+            }, 1032 /* PROPS, DYNAMIC_SLOTS */, ["index"])
           }), 64 /* STABLE_FRAGMENT */))
         ]),
         _: 1 /* STABLE */
@@ -310,12 +313,15 @@ function render(_ctx, _cache) {
       }, {
         default: _withCtx(() => [
           (_openBlock(), _createElementBlock(_Fragment, null, _renderList(4, (item, index) => {
-            return _createVNode(_component_ba_car_item, { key: index }, {
+            return _createVNode(_component_ba_car_item, {
+              key: index,
+              index: index
+            }, {
               default: _withCtx(() => [
                 _createTextVNode(_toDisplayString(item) + " Click 指示器触发 ", 1 /* TEXT */)
               ]),
               _: 2 /* DYNAMIC */
-            }, 1024 /* DYNAMIC_SLOTS */)
+            }, 1032 /* PROPS, DYNAMIC_SLOTS */, ["index"])
           }), 64 /* STABLE_FRAGMENT */))
         ]),
         _: 1 /* STABLE */
@@ -348,12 +354,15 @@ function render(_ctx, _cache) {
     }, {
       default: _withCtx(() => [
         (_openBlock(), _createElementBlock(_Fragment, null, _renderList(4, (item, index) => {
-          return _createVNode(_component_ba_car_item, { key: index }, {
+          return _createVNode(_component_ba_car_item, {
+            key: index,
+            index: index
+          }, {
             default: _withCtx(() => [
               _createTextVNode(_toDisplayString(item), 1 /* TEXT */)
             ]),
             _: 2 /* DYNAMIC */
-          }, 1024 /* DYNAMIC_SLOTS */)
+          }, 1032 /* PROPS, DYNAMIC_SLOTS */, ["index"])
         }), 64 /* STABLE_FRAGMENT */))
       ]),
       _: 1 /* STABLE */
@@ -383,12 +392,15 @@ function render(_ctx, _cache) {
     }, {
       default: _withCtx(() => [
         (_openBlock(), _createElementBlock(_Fragment, null, _renderList(4, (item, index) => {
-          return _createVNode(_component_ba_car_item, { key: index }, {
+          return _createVNode(_component_ba_car_item, {
+            key: index,
+            index: index
+          }, {
             default: _withCtx(() => [
               _createTextVNode(_toDisplayString(item), 1 /* TEXT */)
             ]),
             _: 2 /* DYNAMIC */
-          }, 1024 /* DYNAMIC_SLOTS */)
+          }, 1032 /* PROPS, DYNAMIC_SLOTS */, ["index"])
         }), 64 /* STABLE_FRAGMENT */))
       ]),
       _: 1 /* STABLE */

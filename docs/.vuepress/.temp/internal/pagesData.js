@@ -21,10 +21,10 @@ export const pagesData = {
   "v-25bf176e": () => import(/* webpackChunkName: "v-25bf176e" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Radio.html.js").then(({ data }) => data),
   // path: /components/pages/Switch.html
   "v-e9c58e0c": () => import(/* webpackChunkName: "v-e9c58e0c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/components/pages/Switch.html.js").then(({ data }) => data),
-  // path: /document/tips/
-  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /document/introduction/
   "v-7d85779a": () => import(/* webpackChunkName: "v-7d85779a" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/introduction/index.html.js").then(({ data }) => data),
+  // path: /document/tips/
+  "v-5851f53c": () => import(/* webpackChunkName: "v-5851f53c" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/document/tips/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/张996/Desktop/组件库/组件库文档/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
